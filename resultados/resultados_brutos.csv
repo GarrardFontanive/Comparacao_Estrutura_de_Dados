@@ -1,0 +1,1081 @@
+tamanho;ordem;estrutura;teste;repeticao;quantidade_operacoes;tempo_total_ns
+5000;crescente;Array ordenado;construcao;1;5000;190966
+5000;crescente;Array ordenado;construcao;2;5000;235335
+5000;crescente;Array ordenado;construcao;3;5000;236815
+5000;crescente;Array ordenado;construcao;4;5000;232222
+5000;crescente;Array ordenado;construcao;5;5000;230401
+5000;crescente;Array ordenado;busca_presente;1;2000;278410
+5000;crescente;Array ordenado;busca_presente;2;2000;214420
+5000;crescente;Array ordenado;busca_presente;3;2000;196906
+5000;crescente;Array ordenado;busca_presente;4;2000;188676
+5000;crescente;Array ordenado;busca_presente;5;2000;193874
+5000;crescente;Array ordenado;busca_ausente;1;2000;201304
+5000;crescente;Array ordenado;busca_ausente;2;2000;233743
+5000;crescente;Array ordenado;busca_ausente;3;2000;187464
+5000;crescente;Array ordenado;busca_ausente;4;2000;182842
+5000;crescente;Array ordenado;busca_ausente;5;2000;142916
+5000;crescente;Array ordenado;insercao;1;500;129815
+5000;crescente;Array ordenado;insercao;2;500;124445
+5000;crescente;Array ordenado;insercao;3;500;124361
+5000;crescente;Array ordenado;insercao;4;500;175509
+5000;crescente;Array ordenado;insercao;5;500;175877
+5000;crescente;Array ordenado;remocao;1;500;159747
+5000;crescente;Array ordenado;remocao;2;500;162467
+5000;crescente;Array ordenado;remocao;3;500;162211
+5000;crescente;Array ordenado;remocao;4;500;161168
+5000;crescente;Array ordenado;remocao;5;500;156933
+5000;crescente;Array ordenado;consulta_intervalo;1;200;101720
+5000;crescente;Array ordenado;consulta_intervalo;2;200;38383
+5000;crescente;Array ordenado;consulta_intervalo;3;200;31976
+5000;crescente;Array ordenado;consulta_intervalo;4;200;46393
+5000;crescente;Array ordenado;consulta_intervalo;5;200;46014
+5000;crescente;Lista duplamente encadeada;construcao;1;5000;19693945
+5000;crescente;Lista duplamente encadeada;construcao;2;5000;19189519
+5000;crescente;Lista duplamente encadeada;construcao;3;5000;19226979
+5000;crescente;Lista duplamente encadeada;construcao;4;5000;19199485
+5000;crescente;Lista duplamente encadeada;construcao;5;5000;19270153
+5000;crescente;Lista duplamente encadeada;busca_presente;1;2000;8503332
+5000;crescente;Lista duplamente encadeada;busca_presente;2;2000;7882291
+5000;crescente;Lista duplamente encadeada;busca_presente;3;2000;7890532
+5000;crescente;Lista duplamente encadeada;busca_presente;4;2000;7830034
+5000;crescente;Lista duplamente encadeada;busca_presente;5;2000;9010775
+5000;crescente;Lista duplamente encadeada;busca_ausente;1;2000;16480909
+5000;crescente;Lista duplamente encadeada;busca_ausente;2;2000;16917801
+5000;crescente;Lista duplamente encadeada;busca_ausente;3;2000;16773975
+5000;crescente;Lista duplamente encadeada;busca_ausente;4;2000;15990523
+5000;crescente;Lista duplamente encadeada;busca_ausente;5;2000;15754332
+5000;crescente;Lista duplamente encadeada;insercao;1;500;3958351
+5000;crescente;Lista duplamente encadeada;insercao;2;500;3920254
+5000;crescente;Lista duplamente encadeada;insercao;3;500;3978099
+5000;crescente;Lista duplamente encadeada;insercao;4;500;4021625
+5000;crescente;Lista duplamente encadeada;insercao;5;500;3994752
+5000;crescente;Lista duplamente encadeada;remocao;1;500;1820616
+5000;crescente;Lista duplamente encadeada;remocao;2;500;1793271
+5000;crescente;Lista duplamente encadeada;remocao;3;500;1797052
+5000;crescente;Lista duplamente encadeada;remocao;4;500;1802344
+5000;crescente;Lista duplamente encadeada;remocao;5;500;1763146
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;1;200;1692325
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;2;200;1669317
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;3;200;1577763
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;4;200;1601945
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;5;200;1590825
+5000;crescente;Tabela hash;construcao;1;5000;165193
+5000;crescente;Tabela hash;construcao;2;5000;106510
+5000;crescente;Tabela hash;construcao;3;5000;52068
+5000;crescente;Tabela hash;construcao;4;5000;52339
+5000;crescente;Tabela hash;construcao;5;5000;53551
+5000;crescente;Tabela hash;busca_presente;1;2000;41373
+5000;crescente;Tabela hash;busca_presente;2;2000;41869
+5000;crescente;Tabela hash;busca_presente;3;2000;45837
+5000;crescente;Tabela hash;busca_presente;4;2000;42720
+5000;crescente;Tabela hash;busca_presente;5;2000;100924
+5000;crescente;Tabela hash;busca_ausente;1;2000;46162
+5000;crescente;Tabela hash;busca_ausente;2;2000;46894
+5000;crescente;Tabela hash;busca_ausente;3;2000;45723
+5000;crescente;Tabela hash;busca_ausente;4;2000;45695
+5000;crescente;Tabela hash;busca_ausente;5;2000;54124
+5000;crescente;Tabela hash;insercao;1;500;215769
+5000;crescente;Tabela hash;insercao;2;500;216672
+5000;crescente;Tabela hash;insercao;3;500;216670
+5000;crescente;Tabela hash;insercao;4;500;213992
+5000;crescente;Tabela hash;insercao;5;500;210558
+5000;crescente;Tabela hash;remocao;1;500;28258
+5000;crescente;Tabela hash;remocao;2;500;25575
+5000;crescente;Tabela hash;remocao;3;500;25723
+5000;crescente;Tabela hash;remocao;4;500;13748
+5000;crescente;Tabela hash;remocao;5;500;11198
+5000;crescente;Tabela hash;consulta_intervalo;1;200;881325
+5000;crescente;Tabela hash;consulta_intervalo;2;200;785593
+5000;crescente;Tabela hash;consulta_intervalo;3;200;777250
+5000;crescente;Tabela hash;consulta_intervalo;4;200;848264
+5000;crescente;Tabela hash;consulta_intervalo;5;200;832286
+5000;crescente;Árvore AVL;construcao;1;5000;594139
+5000;crescente;Árvore AVL;construcao;2;5000;575555
+5000;crescente;Árvore AVL;construcao;3;5000;627094
+5000;crescente;Árvore AVL;construcao;4;5000;610457
+5000;crescente;Árvore AVL;construcao;5;5000;262523
+5000;crescente;Árvore AVL;busca_presente;1;2000;139359
+5000;crescente;Árvore AVL;busca_presente;2;2000;126934
+5000;crescente;Árvore AVL;busca_presente;3;2000;133323
+5000;crescente;Árvore AVL;busca_presente;4;2000;123508
+5000;crescente;Árvore AVL;busca_presente;5;2000;123711
+5000;crescente;Árvore AVL;busca_ausente;1;2000;151318
+5000;crescente;Árvore AVL;busca_ausente;2;2000;143289
+5000;crescente;Árvore AVL;busca_ausente;3;2000;140797
+5000;crescente;Árvore AVL;busca_ausente;4;2000;146713
+5000;crescente;Árvore AVL;busca_ausente;5;2000;132564
+5000;crescente;Árvore AVL;insercao;1;500;85101
+5000;crescente;Árvore AVL;insercao;2;500;88467
+5000;crescente;Árvore AVL;insercao;3;500;81186
+5000;crescente;Árvore AVL;insercao;4;500;80603
+5000;crescente;Árvore AVL;insercao;5;500;79512
+5000;crescente;Árvore AVL;remocao;1;500;99933
+5000;crescente;Árvore AVL;remocao;2;500;99731
+5000;crescente;Árvore AVL;remocao;3;500;82370
+5000;crescente;Árvore AVL;remocao;4;500;98101
+5000;crescente;Árvore AVL;remocao;5;500;78504
+5000;crescente;Árvore AVL;consulta_intervalo;1;200;84457
+5000;crescente;Árvore AVL;consulta_intervalo;2;200;78556
+5000;crescente;Árvore AVL;consulta_intervalo;3;200;73326
+5000;crescente;Árvore AVL;consulta_intervalo;4;200;90945
+5000;crescente;Árvore AVL;consulta_intervalo;5;200;71453
+5000;decrescente;Array ordenado;construcao;1;5000;569258
+5000;decrescente;Array ordenado;construcao;2;5000;597457
+5000;decrescente;Array ordenado;construcao;3;5000;576536
+5000;decrescente;Array ordenado;construcao;4;5000;734729
+5000;decrescente;Array ordenado;construcao;5;5000;618113
+5000;decrescente;Array ordenado;busca_presente;1;2000;106514
+5000;decrescente;Array ordenado;busca_presente;2;2000;101583
+5000;decrescente;Array ordenado;busca_presente;3;2000;103309
+5000;decrescente;Array ordenado;busca_presente;4;2000;105526
+5000;decrescente;Array ordenado;busca_presente;5;2000;101615
+5000;decrescente;Array ordenado;busca_ausente;1;2000;140427
+5000;decrescente;Array ordenado;busca_ausente;2;2000;154252
+5000;decrescente;Array ordenado;busca_ausente;3;2000;120525
+5000;decrescente;Array ordenado;busca_ausente;4;2000;107625
+5000;decrescente;Array ordenado;busca_ausente;5;2000;154826
+5000;decrescente;Array ordenado;insercao;1;500;91754
+5000;decrescente;Array ordenado;insercao;2;500;89421
+5000;decrescente;Array ordenado;insercao;3;500;89236
+5000;decrescente;Array ordenado;insercao;4;500;84823
+5000;decrescente;Array ordenado;insercao;5;500;87328
+5000;decrescente;Array ordenado;remocao;1;500;83479
+5000;decrescente;Array ordenado;remocao;2;500;83294
+5000;decrescente;Array ordenado;remocao;3;500;83437
+5000;decrescente;Array ordenado;remocao;4;500;86489
+5000;decrescente;Array ordenado;remocao;5;500;86074
+5000;decrescente;Array ordenado;consulta_intervalo;1;200;35956
+5000;decrescente;Array ordenado;consulta_intervalo;2;200;33264
+5000;decrescente;Array ordenado;consulta_intervalo;3;200;34962
+5000;decrescente;Array ordenado;consulta_intervalo;4;200;26066
+5000;decrescente;Array ordenado;consulta_intervalo;5;200;19896
+5000;decrescente;Lista duplamente encadeada;construcao;1;5000;18671548
+5000;decrescente;Lista duplamente encadeada;construcao;2;5000;19041221
+5000;decrescente;Lista duplamente encadeada;construcao;3;5000;18640225
+5000;decrescente;Lista duplamente encadeada;construcao;4;5000;18635727
+5000;decrescente;Lista duplamente encadeada;construcao;5;5000;18837742
+5000;decrescente;Lista duplamente encadeada;busca_presente;1;2000;8076650
+5000;decrescente;Lista duplamente encadeada;busca_presente;2;2000;8029487
+5000;decrescente;Lista duplamente encadeada;busca_presente;3;2000;8004388
+5000;decrescente;Lista duplamente encadeada;busca_presente;4;2000;8126387
+5000;decrescente;Lista duplamente encadeada;busca_presente;5;2000;8123420
+5000;decrescente;Lista duplamente encadeada;busca_ausente;1;2000;15794656
+5000;decrescente;Lista duplamente encadeada;busca_ausente;2;2000;15732451
+5000;decrescente;Lista duplamente encadeada;busca_ausente;3;2000;15613382
+5000;decrescente;Lista duplamente encadeada;busca_ausente;4;2000;15672901
+5000;decrescente;Lista duplamente encadeada;busca_ausente;5;2000;15583424
+5000;decrescente;Lista duplamente encadeada;insercao;1;500;3940140
+5000;decrescente;Lista duplamente encadeada;insercao;2;500;3993726
+5000;decrescente;Lista duplamente encadeada;insercao;3;500;3975998
+5000;decrescente;Lista duplamente encadeada;insercao;4;500;3988305
+5000;decrescente;Lista duplamente encadeada;insercao;5;500;3974942
+5000;decrescente;Lista duplamente encadeada;remocao;1;500;1990769
+5000;decrescente;Lista duplamente encadeada;remocao;2;500;1968694
+5000;decrescente;Lista duplamente encadeada;remocao;3;500;1971926
+5000;decrescente;Lista duplamente encadeada;remocao;4;500;1969050
+5000;decrescente;Lista duplamente encadeada;remocao;5;500;1967772
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;1;200;1608723
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;2;200;1597620
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;3;200;1602838
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;4;200;1559964
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;5;200;1561872
+5000;decrescente;Tabela hash;construcao;1;5000;168231
+5000;decrescente;Tabela hash;construcao;2;5000;22022
+5000;decrescente;Tabela hash;construcao;3;5000;21548
+5000;decrescente;Tabela hash;construcao;4;5000;21902
+5000;decrescente;Tabela hash;construcao;5;5000;21623
+5000;decrescente;Tabela hash;busca_presente;1;2000;5599
+5000;decrescente;Tabela hash;busca_presente;2;2000;5659
+5000;decrescente;Tabela hash;busca_presente;3;2000;5633
+5000;decrescente;Tabela hash;busca_presente;4;2000;5660
+5000;decrescente;Tabela hash;busca_presente;5;2000;5653
+5000;decrescente;Tabela hash;busca_ausente;1;2000;13751
+5000;decrescente;Tabela hash;busca_ausente;2;2000;12412
+5000;decrescente;Tabela hash;busca_ausente;3;2000;11492
+5000;decrescente;Tabela hash;busca_ausente;4;2000;10575
+5000;decrescente;Tabela hash;busca_ausente;5;2000;10465
+5000;decrescente;Tabela hash;insercao;1;500;222994
+5000;decrescente;Tabela hash;insercao;2;500;94786
+5000;decrescente;Tabela hash;insercao;3;500;94953
+5000;decrescente;Tabela hash;insercao;4;500;93415
+5000;decrescente;Tabela hash;insercao;5;500;94880
+5000;decrescente;Tabela hash;remocao;1;500;15766
+5000;decrescente;Tabela hash;remocao;2;500;14876
+5000;decrescente;Tabela hash;remocao;3;500;14968
+5000;decrescente;Tabela hash;remocao;4;500;15377
+5000;decrescente;Tabela hash;remocao;5;500;15132
+5000;decrescente;Tabela hash;consulta_intervalo;1;200;789667
+5000;decrescente;Tabela hash;consulta_intervalo;2;200;795852
+5000;decrescente;Tabela hash;consulta_intervalo;3;200;792980
+5000;decrescente;Tabela hash;consulta_intervalo;4;200;792382
+5000;decrescente;Tabela hash;consulta_intervalo;5;200;786952
+5000;decrescente;Árvore AVL;construcao;1;5000;244778
+5000;decrescente;Árvore AVL;construcao;2;5000;246390
+5000;decrescente;Árvore AVL;construcao;3;5000;222916
+5000;decrescente;Árvore AVL;construcao;4;5000;216208
+5000;decrescente;Árvore AVL;construcao;5;5000;216974
+5000;decrescente;Árvore AVL;busca_presente;1;2000;111577
+5000;decrescente;Árvore AVL;busca_presente;2;2000;105606
+5000;decrescente;Árvore AVL;busca_presente;3;2000;141457
+5000;decrescente;Árvore AVL;busca_presente;4;2000;106443
+5000;decrescente;Árvore AVL;busca_presente;5;2000;109758
+5000;decrescente;Árvore AVL;busca_ausente;1;2000;118212
+5000;decrescente;Árvore AVL;busca_ausente;2;2000;114533
+5000;decrescente;Árvore AVL;busca_ausente;3;2000;109832
+5000;decrescente;Árvore AVL;busca_ausente;4;2000;108498
+5000;decrescente;Árvore AVL;busca_ausente;5;2000;109696
+5000;decrescente;Árvore AVL;insercao;1;500;52914
+5000;decrescente;Árvore AVL;insercao;2;500;48947
+5000;decrescente;Árvore AVL;insercao;3;500;44451
+5000;decrescente;Árvore AVL;insercao;4;500;43469
+5000;decrescente;Árvore AVL;insercao;5;500;45919
+5000;decrescente;Árvore AVL;remocao;1;500;52545
+5000;decrescente;Árvore AVL;remocao;2;500;46482
+5000;decrescente;Árvore AVL;remocao;3;500;43349
+5000;decrescente;Árvore AVL;remocao;4;500;40423
+5000;decrescente;Árvore AVL;remocao;5;500;43130
+5000;decrescente;Árvore AVL;consulta_intervalo;1;200;44613
+5000;decrescente;Árvore AVL;consulta_intervalo;2;200;40596
+5000;decrescente;Árvore AVL;consulta_intervalo;3;200;38635
+5000;decrescente;Árvore AVL;consulta_intervalo;4;200;40544
+5000;decrescente;Árvore AVL;consulta_intervalo;5;200;41334
+5000;aleatoria;Array ordenado;construcao;1;5000;490492
+5000;aleatoria;Array ordenado;construcao;2;5000;490105
+5000;aleatoria;Array ordenado;construcao;3;5000;486479
+5000;aleatoria;Array ordenado;construcao;4;5000;496048
+5000;aleatoria;Array ordenado;construcao;5;5000;489754
+5000;aleatoria;Array ordenado;busca_presente;1;2000;103633
+5000;aleatoria;Array ordenado;busca_presente;2;2000;103287
+5000;aleatoria;Array ordenado;busca_presente;3;2000;100506
+5000;aleatoria;Array ordenado;busca_presente;4;2000;102120
+5000;aleatoria;Array ordenado;busca_presente;5;2000;97182
+5000;aleatoria;Array ordenado;busca_ausente;1;2000;101916
+5000;aleatoria;Array ordenado;busca_ausente;2;2000;98444
+5000;aleatoria;Array ordenado;busca_ausente;3;2000;104570
+5000;aleatoria;Array ordenado;busca_ausente;4;2000;98098
+5000;aleatoria;Array ordenado;busca_ausente;5;2000;99566
+5000;aleatoria;Array ordenado;insercao;1;500;92332
+5000;aleatoria;Array ordenado;insercao;2;500;92933
+5000;aleatoria;Array ordenado;insercao;3;500;97175
+5000;aleatoria;Array ordenado;insercao;4;500;92740
+5000;aleatoria;Array ordenado;insercao;5;500;92811
+5000;aleatoria;Array ordenado;remocao;1;500;85976
+5000;aleatoria;Array ordenado;remocao;2;500;85592
+5000;aleatoria;Array ordenado;remocao;3;500;86054
+5000;aleatoria;Array ordenado;remocao;4;500;87775
+5000;aleatoria;Array ordenado;remocao;5;500;82617
+5000;aleatoria;Array ordenado;consulta_intervalo;1;200;24638
+5000;aleatoria;Array ordenado;consulta_intervalo;2;200;24220
+5000;aleatoria;Array ordenado;consulta_intervalo;3;200;24332
+5000;aleatoria;Array ordenado;consulta_intervalo;4;200;24308
+5000;aleatoria;Array ordenado;consulta_intervalo;5;200;26378
+5000;aleatoria;Lista duplamente encadeada;construcao;1;5000;18881457
+5000;aleatoria;Lista duplamente encadeada;construcao;2;5000;18824118
+5000;aleatoria;Lista duplamente encadeada;construcao;3;5000;18628462
+5000;aleatoria;Lista duplamente encadeada;construcao;4;5000;20658700
+5000;aleatoria;Lista duplamente encadeada;construcao;5;5000;19183105
+5000;aleatoria;Lista duplamente encadeada;busca_presente;1;2000;8056804
+5000;aleatoria;Lista duplamente encadeada;busca_presente;2;2000;8017528
+5000;aleatoria;Lista duplamente encadeada;busca_presente;3;2000;7967481
+5000;aleatoria;Lista duplamente encadeada;busca_presente;4;2000;8165201
+5000;aleatoria;Lista duplamente encadeada;busca_presente;5;2000;8001460
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;1;2000;15859740
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;2;2000;15947039
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;3;2000;15757518
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;4;2000;15925917
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;5;2000;15745639
+5000;aleatoria;Lista duplamente encadeada;insercao;1;500;3919240
+5000;aleatoria;Lista duplamente encadeada;insercao;2;500;3965848
+5000;aleatoria;Lista duplamente encadeada;insercao;3;500;3943658
+5000;aleatoria;Lista duplamente encadeada;insercao;4;500;4161490
+5000;aleatoria;Lista duplamente encadeada;insercao;5;500;3954045
+5000;aleatoria;Lista duplamente encadeada;remocao;1;500;25219
+5000;aleatoria;Lista duplamente encadeada;remocao;2;500;17821
+5000;aleatoria;Lista duplamente encadeada;remocao;3;500;15950
+5000;aleatoria;Lista duplamente encadeada;remocao;4;500;16634
+5000;aleatoria;Lista duplamente encadeada;remocao;5;500;15464
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;1;200;3224593
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;2;200;3198711
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;3;200;3207161
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;4;200;3224367
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;5;200;3175403
+5000;aleatoria;Tabela hash;construcao;1;5000;21999
+5000;aleatoria;Tabela hash;construcao;2;5000;22024
+5000;aleatoria;Tabela hash;construcao;3;5000;21931
+5000;aleatoria;Tabela hash;construcao;4;5000;21359
+5000;aleatoria;Tabela hash;construcao;5;5000;21969
+5000;aleatoria;Tabela hash;busca_presente;1;2000;5559
+5000;aleatoria;Tabela hash;busca_presente;2;2000;5576
+5000;aleatoria;Tabela hash;busca_presente;3;2000;5591
+5000;aleatoria;Tabela hash;busca_presente;4;2000;5553
+5000;aleatoria;Tabela hash;busca_presente;5;2000;5547
+5000;aleatoria;Tabela hash;busca_ausente;1;2000;13871
+5000;aleatoria;Tabela hash;busca_ausente;2;2000;12454
+5000;aleatoria;Tabela hash;busca_ausente;3;2000;11728
+5000;aleatoria;Tabela hash;busca_ausente;4;2000;10589
+5000;aleatoria;Tabela hash;busca_ausente;5;2000;10742
+5000;aleatoria;Tabela hash;insercao;1;500;44080
+5000;aleatoria;Tabela hash;insercao;2;500;45115
+5000;aleatoria;Tabela hash;insercao;3;500;44823
+5000;aleatoria;Tabela hash;insercao;4;500;44857
+5000;aleatoria;Tabela hash;insercao;5;500;44031
+5000;aleatoria;Tabela hash;remocao;1;500;12583
+5000;aleatoria;Tabela hash;remocao;2;500;11815
+5000;aleatoria;Tabela hash;remocao;3;500;11476
+5000;aleatoria;Tabela hash;remocao;4;500;12202
+5000;aleatoria;Tabela hash;remocao;5;500;11737
+5000;aleatoria;Tabela hash;consulta_intervalo;1;200;904316
+5000;aleatoria;Tabela hash;consulta_intervalo;2;200;948234
+5000;aleatoria;Tabela hash;consulta_intervalo;3;200;895892
+5000;aleatoria;Tabela hash;consulta_intervalo;4;200;884087
+5000;aleatoria;Tabela hash;consulta_intervalo;5;200;888344
+5000;aleatoria;Árvore AVL;construcao;1;5000;440394
+5000;aleatoria;Árvore AVL;construcao;2;5000;437534
+5000;aleatoria;Árvore AVL;construcao;3;5000;426574
+5000;aleatoria;Árvore AVL;construcao;4;5000;419832
+5000;aleatoria;Árvore AVL;construcao;5;5000;410912
+5000;aleatoria;Árvore AVL;busca_presente;1;2000;118253
+5000;aleatoria;Árvore AVL;busca_presente;2;2000;117929
+5000;aleatoria;Árvore AVL;busca_presente;3;2000;114505
+5000;aleatoria;Árvore AVL;busca_presente;4;2000;114673
+5000;aleatoria;Árvore AVL;busca_presente;5;2000;115137
+5000;aleatoria;Árvore AVL;busca_ausente;1;2000;130223
+5000;aleatoria;Árvore AVL;busca_ausente;2;2000;131336
+5000;aleatoria;Árvore AVL;busca_ausente;3;2000;129637
+5000;aleatoria;Árvore AVL;busca_ausente;4;2000;131612
+5000;aleatoria;Árvore AVL;busca_ausente;5;2000;129059
+5000;aleatoria;Árvore AVL;insercao;1;500;52894
+5000;aleatoria;Árvore AVL;insercao;2;500;54485
+5000;aleatoria;Árvore AVL;insercao;3;500;51689
+5000;aleatoria;Árvore AVL;insercao;4;500;51864
+5000;aleatoria;Árvore AVL;insercao;5;500;50934
+5000;aleatoria;Árvore AVL;remocao;1;500;49833
+5000;aleatoria;Árvore AVL;remocao;2;500;48647
+5000;aleatoria;Árvore AVL;remocao;3;500;47436
+5000;aleatoria;Árvore AVL;remocao;4;500;47429
+5000;aleatoria;Árvore AVL;remocao;5;500;47201
+5000;aleatoria;Árvore AVL;consulta_intervalo;1;200;76506
+5000;aleatoria;Árvore AVL;consulta_intervalo;2;200;72716
+5000;aleatoria;Árvore AVL;consulta_intervalo;3;200;67268
+5000;aleatoria;Árvore AVL;consulta_intervalo;4;200;68000
+5000;aleatoria;Árvore AVL;consulta_intervalo;5;200;65687
+10000;crescente;Array ordenado;construcao;1;10000;104966
+10000;crescente;Array ordenado;construcao;2;10000;100508
+10000;crescente;Array ordenado;construcao;3;10000;100171
+10000;crescente;Array ordenado;construcao;4;10000;101228
+10000;crescente;Array ordenado;construcao;5;10000;101332
+10000;crescente;Array ordenado;busca_presente;1;2000;104484
+10000;crescente;Array ordenado;busca_presente;2;2000;101330
+10000;crescente;Array ordenado;busca_presente;3;2000;97336
+10000;crescente;Array ordenado;busca_presente;4;2000;96512
+10000;crescente;Array ordenado;busca_presente;5;2000;99410
+10000;crescente;Array ordenado;busca_ausente;1;2000;108170
+10000;crescente;Array ordenado;busca_ausente;2;2000;106403
+10000;crescente;Array ordenado;busca_ausente;3;2000;106054
+10000;crescente;Array ordenado;busca_ausente;4;2000;107644
+10000;crescente;Array ordenado;busca_ausente;5;2000;103790
+10000;crescente;Array ordenado;insercao;1;1000;289550
+10000;crescente;Array ordenado;insercao;2;1000;286651
+10000;crescente;Array ordenado;insercao;3;1000;288520
+10000;crescente;Array ordenado;insercao;4;1000;283383
+10000;crescente;Array ordenado;insercao;5;1000;290604
+10000;crescente;Array ordenado;remocao;1;1000;252739
+10000;crescente;Array ordenado;remocao;2;1000;259141
+10000;crescente;Array ordenado;remocao;3;1000;257918
+10000;crescente;Array ordenado;remocao;4;1000;256528
+10000;crescente;Array ordenado;remocao;5;1000;257763
+10000;crescente;Array ordenado;consulta_intervalo;1;200;20211
+10000;crescente;Array ordenado;consulta_intervalo;2;200;16477
+10000;crescente;Array ordenado;consulta_intervalo;3;200;13580
+10000;crescente;Array ordenado;consulta_intervalo;4;200;13257
+10000;crescente;Array ordenado;consulta_intervalo;5;200;14029
+10000;crescente;Lista duplamente encadeada;construcao;1;10000;75488978
+10000;crescente;Lista duplamente encadeada;construcao;2;10000;75880247
+10000;crescente;Lista duplamente encadeada;construcao;3;10000;75017421
+10000;crescente;Lista duplamente encadeada;construcao;4;10000;75467425
+10000;crescente;Lista duplamente encadeada;construcao;5;10000;74908001
+10000;crescente;Lista duplamente encadeada;busca_presente;1;2000;15698375
+10000;crescente;Lista duplamente encadeada;busca_presente;2;2000;15746883
+10000;crescente;Lista duplamente encadeada;busca_presente;3;2000;15633919
+10000;crescente;Lista duplamente encadeada;busca_presente;4;2000;15641557
+10000;crescente;Lista duplamente encadeada;busca_presente;5;2000;15813298
+10000;crescente;Lista duplamente encadeada;busca_ausente;1;2000;30968003
+10000;crescente;Lista duplamente encadeada;busca_ausente;2;2000;31033975
+10000;crescente;Lista duplamente encadeada;busca_ausente;3;2000;31515600
+10000;crescente;Lista duplamente encadeada;busca_ausente;4;2000;30977723
+10000;crescente;Lista duplamente encadeada;busca_ausente;5;2000;31475128
+10000;crescente;Lista duplamente encadeada;insercao;1;1000;15625094
+10000;crescente;Lista duplamente encadeada;insercao;2;1000;15603703
+10000;crescente;Lista duplamente encadeada;insercao;3;1000;15604334
+10000;crescente;Lista duplamente encadeada;insercao;4;1000;15610041
+10000;crescente;Lista duplamente encadeada;insercao;5;1000;15560250
+10000;crescente;Lista duplamente encadeada;remocao;1;1000;7648176
+10000;crescente;Lista duplamente encadeada;remocao;2;1000;7672522
+10000;crescente;Lista duplamente encadeada;remocao;3;1000;7650913
+10000;crescente;Lista duplamente encadeada;remocao;4;1000;7667527
+10000;crescente;Lista duplamente encadeada;remocao;5;1000;7698451
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;1;200;3110544
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;2;200;3119034
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;3;200;3111638
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;4;200;3135304
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;5;200;3135766
+10000;crescente;Tabela hash;construcao;1;10000;44272
+10000;crescente;Tabela hash;construcao;2;10000;47239
+10000;crescente;Tabela hash;construcao;3;10000;47270
+10000;crescente;Tabela hash;construcao;4;10000;43734
+10000;crescente;Tabela hash;construcao;5;10000;46239
+10000;crescente;Tabela hash;busca_presente;1;2000;5927
+10000;crescente;Tabela hash;busca_presente;2;2000;5949
+10000;crescente;Tabela hash;busca_presente;3;2000;5963
+10000;crescente;Tabela hash;busca_presente;4;2000;5961
+10000;crescente;Tabela hash;busca_presente;5;2000;5941
+10000;crescente;Tabela hash;busca_ausente;1;2000;14270
+10000;crescente;Tabela hash;busca_ausente;2;2000;13094
+10000;crescente;Tabela hash;busca_ausente;3;2000;13019
+10000;crescente;Tabela hash;busca_ausente;4;2000;11766
+10000;crescente;Tabela hash;busca_ausente;5;2000;11433
+10000;crescente;Tabela hash;insercao;1;1000;61361
+10000;crescente;Tabela hash;insercao;2;1000;52520
+10000;crescente;Tabela hash;insercao;3;1000;51544
+10000;crescente;Tabela hash;insercao;4;1000;51072
+10000;crescente;Tabela hash;insercao;5;1000;50825
+10000;crescente;Tabela hash;remocao;1;1000;18832
+10000;crescente;Tabela hash;remocao;2;1000;18769
+10000;crescente;Tabela hash;remocao;3;1000;19081
+10000;crescente;Tabela hash;remocao;4;1000;18647
+10000;crescente;Tabela hash;remocao;5;1000;19842
+10000;crescente;Tabela hash;consulta_intervalo;1;200;1523992
+10000;crescente;Tabela hash;consulta_intervalo;2;200;1517480
+10000;crescente;Tabela hash;consulta_intervalo;3;200;1533500
+10000;crescente;Tabela hash;consulta_intervalo;4;200;1530912
+10000;crescente;Tabela hash;consulta_intervalo;5;200;1516980
+10000;crescente;Árvore AVL;construcao;1;10000;418134
+10000;crescente;Árvore AVL;construcao;2;10000;401006
+10000;crescente;Árvore AVL;construcao;3;10000;401683
+10000;crescente;Árvore AVL;construcao;4;10000;402806
+10000;crescente;Árvore AVL;construcao;5;10000;398681
+10000;crescente;Árvore AVL;busca_presente;1;2000;131513
+10000;crescente;Árvore AVL;busca_presente;2;2000;129802
+10000;crescente;Árvore AVL;busca_presente;3;2000;129022
+10000;crescente;Árvore AVL;busca_presente;4;2000;127671
+10000;crescente;Árvore AVL;busca_presente;5;2000;128436
+10000;crescente;Árvore AVL;busca_ausente;1;2000;144140
+10000;crescente;Árvore AVL;busca_ausente;2;2000;139276
+10000;crescente;Árvore AVL;busca_ausente;3;2000;138965
+10000;crescente;Árvore AVL;busca_ausente;4;2000;184562
+10000;crescente;Árvore AVL;busca_ausente;5;2000;139084
+10000;crescente;Árvore AVL;insercao;1;1000;108475
+10000;crescente;Árvore AVL;insercao;2;1000;105556
+10000;crescente;Árvore AVL;insercao;3;1000;98533
+10000;crescente;Árvore AVL;insercao;4;1000;98940
+10000;crescente;Árvore AVL;insercao;5;1000;95171
+10000;crescente;Árvore AVL;remocao;1;1000;129134
+10000;crescente;Árvore AVL;remocao;2;1000;109313
+10000;crescente;Árvore AVL;remocao;3;1000;111159
+10000;crescente;Árvore AVL;remocao;4;1000;100387
+10000;crescente;Árvore AVL;remocao;5;1000;97301
+10000;crescente;Árvore AVL;consulta_intervalo;1;200;46383
+10000;crescente;Árvore AVL;consulta_intervalo;2;200;42691
+10000;crescente;Árvore AVL;consulta_intervalo;3;200;40668
+10000;crescente;Árvore AVL;consulta_intervalo;4;200;40040
+10000;crescente;Árvore AVL;consulta_intervalo;5;200;38243
+10000;decrescente;Array ordenado;construcao;1;10000;2110689
+10000;decrescente;Array ordenado;construcao;2;10000;2070705
+10000;decrescente;Array ordenado;construcao;3;10000;2053300
+10000;decrescente;Array ordenado;construcao;4;10000;2049607
+10000;decrescente;Array ordenado;construcao;5;10000;2092896
+10000;decrescente;Array ordenado;busca_presente;1;2000;106282
+10000;decrescente;Array ordenado;busca_presente;2;2000;104643
+10000;decrescente;Array ordenado;busca_presente;3;2000;105214
+10000;decrescente;Array ordenado;busca_presente;4;2000;105199
+10000;decrescente;Array ordenado;busca_presente;5;2000;104882
+10000;decrescente;Array ordenado;busca_ausente;1;2000;110404
+10000;decrescente;Array ordenado;busca_ausente;2;2000;107404
+10000;decrescente;Array ordenado;busca_ausente;3;2000;109618
+10000;decrescente;Array ordenado;busca_ausente;4;2000;107030
+10000;decrescente;Array ordenado;busca_ausente;5;2000;108427
+10000;decrescente;Array ordenado;insercao;1;1000;300686
+10000;decrescente;Array ordenado;insercao;2;1000;291741
+10000;decrescente;Array ordenado;insercao;3;1000;293484
+10000;decrescente;Array ordenado;insercao;4;1000;272725
+10000;decrescente;Array ordenado;insercao;5;1000;273329
+10000;decrescente;Array ordenado;remocao;1;1000;257116
+10000;decrescente;Array ordenado;remocao;2;1000;256056
+10000;decrescente;Array ordenado;remocao;3;1000;236999
+10000;decrescente;Array ordenado;remocao;4;1000;234859
+10000;decrescente;Array ordenado;remocao;5;1000;236092
+10000;decrescente;Array ordenado;consulta_intervalo;1;200;21442
+10000;decrescente;Array ordenado;consulta_intervalo;2;200;18772
+10000;decrescente;Array ordenado;consulta_intervalo;3;200;19811
+10000;decrescente;Array ordenado;consulta_intervalo;4;200;26036
+10000;decrescente;Array ordenado;consulta_intervalo;5;200;23533
+10000;decrescente;Lista duplamente encadeada;construcao;1;10000;75586374
+10000;decrescente;Lista duplamente encadeada;construcao;2;10000;75148755
+10000;decrescente;Lista duplamente encadeada;construcao;3;10000;74500033
+10000;decrescente;Lista duplamente encadeada;construcao;4;10000;74848726
+10000;decrescente;Lista duplamente encadeada;construcao;5;10000;74827244
+10000;decrescente;Lista duplamente encadeada;busca_presente;1;2000;15464304
+10000;decrescente;Lista duplamente encadeada;busca_presente;2;2000;15543476
+10000;decrescente;Lista duplamente encadeada;busca_presente;3;2000;15438868
+10000;decrescente;Lista duplamente encadeada;busca_presente;4;2000;15494138
+10000;decrescente;Lista duplamente encadeada;busca_presente;5;2000;15423116
+10000;decrescente;Lista duplamente encadeada;busca_ausente;1;2000;30983031
+10000;decrescente;Lista duplamente encadeada;busca_ausente;2;2000;30986601
+10000;decrescente;Lista duplamente encadeada;busca_ausente;3;2000;31648145
+10000;decrescente;Lista duplamente encadeada;busca_ausente;4;2000;31158488
+10000;decrescente;Lista duplamente encadeada;busca_ausente;5;2000;31510745
+10000;decrescente;Lista duplamente encadeada;insercao;1;1000;15635914
+10000;decrescente;Lista duplamente encadeada;insercao;2;1000;15648487
+10000;decrescente;Lista duplamente encadeada;insercao;3;1000;15599786
+10000;decrescente;Lista duplamente encadeada;insercao;4;1000;15652415
+10000;decrescente;Lista duplamente encadeada;insercao;5;1000;15567932
+10000;decrescente;Lista duplamente encadeada;remocao;1;1000;7129263
+10000;decrescente;Lista duplamente encadeada;remocao;2;1000;7157004
+10000;decrescente;Lista duplamente encadeada;remocao;3;1000;7143509
+10000;decrescente;Lista duplamente encadeada;remocao;4;1000;7236669
+10000;decrescente;Lista duplamente encadeada;remocao;5;1000;7195132
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;1;200;3149855
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;2;200;3107430
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;3;200;3263159
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;4;200;3101311
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;5;200;3104304
+10000;decrescente;Tabela hash;construcao;1;10000;46897
+10000;decrescente;Tabela hash;construcao;2;10000;49972
+10000;decrescente;Tabela hash;construcao;3;10000;44566
+10000;decrescente;Tabela hash;construcao;4;10000;43444
+10000;decrescente;Tabela hash;construcao;5;10000;51635
+10000;decrescente;Tabela hash;busca_presente;1;2000;5830
+10000;decrescente;Tabela hash;busca_presente;2;2000;5804
+10000;decrescente;Tabela hash;busca_presente;3;2000;5799
+10000;decrescente;Tabela hash;busca_presente;4;2000;5818
+10000;decrescente;Tabela hash;busca_presente;5;2000;5802
+10000;decrescente;Tabela hash;busca_ausente;1;2000;13763
+10000;decrescente;Tabela hash;busca_ausente;2;2000;12578
+10000;decrescente;Tabela hash;busca_ausente;3;2000;11631
+10000;decrescente;Tabela hash;busca_ausente;4;2000;10797
+10000;decrescente;Tabela hash;busca_ausente;5;2000;15378
+10000;decrescente;Tabela hash;insercao;1;1000;37169
+10000;decrescente;Tabela hash;insercao;2;1000;43056
+10000;decrescente;Tabela hash;insercao;3;1000;46928
+10000;decrescente;Tabela hash;insercao;4;1000;44823
+10000;decrescente;Tabela hash;insercao;5;1000;36522
+10000;decrescente;Tabela hash;remocao;1;1000;6137
+10000;decrescente;Tabela hash;remocao;2;1000;6169
+10000;decrescente;Tabela hash;remocao;3;1000;6014
+10000;decrescente;Tabela hash;remocao;4;1000;6045
+10000;decrescente;Tabela hash;remocao;5;1000;5984
+10000;decrescente;Tabela hash;consulta_intervalo;1;200;1565177
+10000;decrescente;Tabela hash;consulta_intervalo;2;200;1560783
+10000;decrescente;Tabela hash;consulta_intervalo;3;200;1556884
+10000;decrescente;Tabela hash;consulta_intervalo;4;200;1548822
+10000;decrescente;Tabela hash;consulta_intervalo;5;200;1566130
+10000;decrescente;Árvore AVL;construcao;1;10000;471620
+10000;decrescente;Árvore AVL;construcao;2;10000;462060
+10000;decrescente;Árvore AVL;construcao;3;10000;461259
+10000;decrescente;Árvore AVL;construcao;4;10000;462051
+10000;decrescente;Árvore AVL;construcao;5;10000;459819
+10000;decrescente;Árvore AVL;busca_presente;1;2000;133642
+10000;decrescente;Árvore AVL;busca_presente;2;2000;138184
+10000;decrescente;Árvore AVL;busca_presente;3;2000;126550
+10000;decrescente;Árvore AVL;busca_presente;4;2000;126582
+10000;decrescente;Árvore AVL;busca_presente;5;2000;126777
+10000;decrescente;Árvore AVL;busca_ausente;1;2000;146476
+10000;decrescente;Árvore AVL;busca_ausente;2;2000;143137
+10000;decrescente;Árvore AVL;busca_ausente;3;2000;141675
+10000;decrescente;Árvore AVL;busca_ausente;4;2000;136429
+10000;decrescente;Árvore AVL;busca_ausente;5;2000;129239
+10000;decrescente;Árvore AVL;insercao;1;1000;104155
+10000;decrescente;Árvore AVL;insercao;2;1000;97943
+10000;decrescente;Árvore AVL;insercao;3;1000;90537
+10000;decrescente;Árvore AVL;insercao;4;1000;87822
+10000;decrescente;Árvore AVL;insercao;5;1000;107149
+10000;decrescente;Árvore AVL;remocao;1;1000;102189
+10000;decrescente;Árvore AVL;remocao;2;1000;94174
+10000;decrescente;Árvore AVL;remocao;3;1000;102573
+10000;decrescente;Árvore AVL;remocao;4;1000;95032
+10000;decrescente;Árvore AVL;remocao;5;1000;87547
+10000;decrescente;Árvore AVL;consulta_intervalo;1;200;42080
+10000;decrescente;Árvore AVL;consulta_intervalo;2;200;40131
+10000;decrescente;Árvore AVL;consulta_intervalo;3;200;38134
+10000;decrescente;Árvore AVL;consulta_intervalo;4;200;34242
+10000;decrescente;Árvore AVL;consulta_intervalo;5;200;32492
+10000;aleatoria;Array ordenado;construcao;1;10000;1541134
+10000;aleatoria;Array ordenado;construcao;2;10000;1546612
+10000;aleatoria;Array ordenado;construcao;3;10000;1543355
+10000;aleatoria;Array ordenado;construcao;4;10000;1529290
+10000;aleatoria;Array ordenado;construcao;5;10000;1530477
+10000;aleatoria;Array ordenado;busca_presente;1;2000;105414
+10000;aleatoria;Array ordenado;busca_presente;2;2000;104349
+10000;aleatoria;Array ordenado;busca_presente;3;2000;101610
+10000;aleatoria;Array ordenado;busca_presente;4;2000;104922
+10000;aleatoria;Array ordenado;busca_presente;5;2000;100412
+10000;aleatoria;Array ordenado;busca_ausente;1;2000;114031
+10000;aleatoria;Array ordenado;busca_ausente;2;2000;111851
+10000;aleatoria;Array ordenado;busca_ausente;3;2000;116304
+10000;aleatoria;Array ordenado;busca_ausente;4;2000;113779
+10000;aleatoria;Array ordenado;busca_ausente;5;2000;115592
+10000;aleatoria;Array ordenado;insercao;1;1000;276323
+10000;aleatoria;Array ordenado;insercao;2;1000;272138
+10000;aleatoria;Array ordenado;insercao;3;1000;274685
+10000;aleatoria;Array ordenado;insercao;4;1000;272238
+10000;aleatoria;Array ordenado;insercao;5;1000;276600
+10000;aleatoria;Array ordenado;remocao;1;1000;237155
+10000;aleatoria;Array ordenado;remocao;2;1000;235641
+10000;aleatoria;Array ordenado;remocao;3;1000;237271
+10000;aleatoria;Array ordenado;remocao;4;1000;241640
+10000;aleatoria;Array ordenado;remocao;5;1000;243659
+10000;aleatoria;Array ordenado;consulta_intervalo;1;200;22246
+10000;aleatoria;Array ordenado;consulta_intervalo;2;200;21692
+10000;aleatoria;Array ordenado;consulta_intervalo;3;200;23174
+10000;aleatoria;Array ordenado;consulta_intervalo;4;200;21718
+10000;aleatoria;Array ordenado;consulta_intervalo;5;200;21619
+10000;aleatoria;Lista duplamente encadeada;construcao;1;10000;75416021
+10000;aleatoria;Lista duplamente encadeada;construcao;2;10000;75548654
+10000;aleatoria;Lista duplamente encadeada;construcao;3;10000;75223695
+10000;aleatoria;Lista duplamente encadeada;construcao;4;10000;75574189
+10000;aleatoria;Lista duplamente encadeada;construcao;5;10000;76777518
+10000;aleatoria;Lista duplamente encadeada;busca_presente;1;2000;15446097
+10000;aleatoria;Lista duplamente encadeada;busca_presente;2;2000;15463722
+10000;aleatoria;Lista duplamente encadeada;busca_presente;3;2000;15422824
+10000;aleatoria;Lista duplamente encadeada;busca_presente;4;2000;15409371
+10000;aleatoria;Lista duplamente encadeada;busca_presente;5;2000;15417481
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;1;2000;31390525
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;2;2000;31122872
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;3;2000;31560835
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;4;2000;31104427
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;5;2000;31431287
+10000;aleatoria;Lista duplamente encadeada;insercao;1;1000;15626545
+10000;aleatoria;Lista duplamente encadeada;insercao;2;1000;15656752
+10000;aleatoria;Lista duplamente encadeada;insercao;3;1000;15681445
+10000;aleatoria;Lista duplamente encadeada;insercao;4;1000;15590389
+10000;aleatoria;Lista duplamente encadeada;insercao;5;1000;15589445
+10000;aleatoria;Lista duplamente encadeada;remocao;1;1000;3568
+10000;aleatoria;Lista duplamente encadeada;remocao;2;1000;3275
+10000;aleatoria;Lista duplamente encadeada;remocao;3;1000;3332
+10000;aleatoria;Lista duplamente encadeada;remocao;4;1000;3213
+10000;aleatoria;Lista duplamente encadeada;remocao;5;1000;3615
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;1;200;6417141
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;2;200;6401852
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;3;200;6337944
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;4;200;6329111
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;5;200;6393456
+10000;aleatoria;Tabela hash;construcao;1;10000;43856
+10000;aleatoria;Tabela hash;construcao;2;10000;43616
+10000;aleatoria;Tabela hash;construcao;3;10000;48539
+10000;aleatoria;Tabela hash;construcao;4;10000;43181
+10000;aleatoria;Tabela hash;construcao;5;10000;47590
+10000;aleatoria;Tabela hash;busca_presente;1;2000;5816
+10000;aleatoria;Tabela hash;busca_presente;2;2000;5928
+10000;aleatoria;Tabela hash;busca_presente;3;2000;5906
+10000;aleatoria;Tabela hash;busca_presente;4;2000;5931
+10000;aleatoria;Tabela hash;busca_presente;5;2000;5891
+10000;aleatoria;Tabela hash;busca_ausente;1;2000;14403
+10000;aleatoria;Tabela hash;busca_ausente;2;2000;12746
+10000;aleatoria;Tabela hash;busca_ausente;3;2000;12341
+10000;aleatoria;Tabela hash;busca_ausente;4;2000;11983
+10000;aleatoria;Tabela hash;busca_ausente;5;2000;11407
+10000;aleatoria;Tabela hash;insercao;1;1000;38202
+10000;aleatoria;Tabela hash;insercao;2;1000;38860
+10000;aleatoria;Tabela hash;insercao;3;1000;86630
+10000;aleatoria;Tabela hash;insercao;4;1000;37746
+10000;aleatoria;Tabela hash;insercao;5;1000;37982
+10000;aleatoria;Tabela hash;remocao;1;1000;3165
+10000;aleatoria;Tabela hash;remocao;2;1000;3178
+10000;aleatoria;Tabela hash;remocao;3;1000;3247
+10000;aleatoria;Tabela hash;remocao;4;1000;3127
+10000;aleatoria;Tabela hash;remocao;5;1000;3128
+10000;aleatoria;Tabela hash;consulta_intervalo;1;200;1890492
+10000;aleatoria;Tabela hash;consulta_intervalo;2;200;1882075
+10000;aleatoria;Tabela hash;consulta_intervalo;3;200;1899786
+10000;aleatoria;Tabela hash;consulta_intervalo;4;200;1881614
+10000;aleatoria;Tabela hash;consulta_intervalo;5;200;1885859
+10000;aleatoria;Árvore AVL;construcao;1;10000;939341
+10000;aleatoria;Árvore AVL;construcao;2;10000;939645
+10000;aleatoria;Árvore AVL;construcao;3;10000;2399121
+10000;aleatoria;Árvore AVL;construcao;4;10000;954761
+10000;aleatoria;Árvore AVL;construcao;5;10000;1072312
+10000;aleatoria;Árvore AVL;busca_presente;1;2000;127752
+10000;aleatoria;Árvore AVL;busca_presente;2;2000;131896
+10000;aleatoria;Árvore AVL;busca_presente;3;2000;130091
+10000;aleatoria;Árvore AVL;busca_presente;4;2000;129045
+10000;aleatoria;Árvore AVL;busca_presente;5;2000;131601
+10000;aleatoria;Árvore AVL;busca_ausente;1;2000;144542
+10000;aleatoria;Árvore AVL;busca_ausente;2;2000;140708
+10000;aleatoria;Árvore AVL;busca_ausente;3;2000;138425
+10000;aleatoria;Árvore AVL;busca_ausente;4;2000;137843
+10000;aleatoria;Árvore AVL;busca_ausente;5;2000;136653
+10000;aleatoria;Árvore AVL;insercao;1;1000;108946
+10000;aleatoria;Árvore AVL;insercao;2;1000;126577
+10000;aleatoria;Árvore AVL;insercao;3;1000;110386
+10000;aleatoria;Árvore AVL;insercao;4;1000;111944
+10000;aleatoria;Árvore AVL;insercao;5;1000;108611
+10000;aleatoria;Árvore AVL;remocao;1;1000;106123
+10000;aleatoria;Árvore AVL;remocao;2;1000;101804
+10000;aleatoria;Árvore AVL;remocao;3;1000;97044
+10000;aleatoria;Árvore AVL;remocao;4;1000;95508
+10000;aleatoria;Árvore AVL;remocao;5;1000;94707
+10000;aleatoria;Árvore AVL;consulta_intervalo;1;200;80701
+10000;aleatoria;Árvore AVL;consulta_intervalo;2;200;74027
+10000;aleatoria;Árvore AVL;consulta_intervalo;3;200;71390
+10000;aleatoria;Árvore AVL;consulta_intervalo;4;200;69874
+10000;aleatoria;Árvore AVL;consulta_intervalo;5;200;69206
+100000;crescente;Array ordenado;construcao;1;100000;1162068
+100000;crescente;Array ordenado;construcao;2;100000;1184878
+100000;crescente;Array ordenado;construcao;3;100000;1183257
+100000;crescente;Array ordenado;construcao;4;100000;1166877
+100000;crescente;Array ordenado;construcao;5;100000;1181871
+100000;crescente;Array ordenado;busca_presente;1;2000;137169
+100000;crescente;Array ordenado;busca_presente;2;2000;140645
+100000;crescente;Array ordenado;busca_presente;3;2000;136842
+100000;crescente;Array ordenado;busca_presente;4;2000;137141
+100000;crescente;Array ordenado;busca_presente;5;2000;136199
+100000;crescente;Array ordenado;busca_ausente;1;2000;143269
+100000;crescente;Array ordenado;busca_ausente;2;2000;142321
+100000;crescente;Array ordenado;busca_ausente;3;2000;148185
+100000;crescente;Array ordenado;busca_ausente;4;2000;143219
+100000;crescente;Array ordenado;busca_ausente;5;2000;141175
+100000;crescente;Array ordenado;insercao;1;10000;31421987
+100000;crescente;Array ordenado;insercao;2;10000;31201825
+100000;crescente;Array ordenado;insercao;3;10000;31146070
+100000;crescente;Array ordenado;insercao;4;10000;31874234
+100000;crescente;Array ordenado;insercao;5;10000;31164958
+100000;crescente;Array ordenado;remocao;1;10000;28045698
+100000;crescente;Array ordenado;remocao;2;10000;27889572
+100000;crescente;Array ordenado;remocao;3;10000;27807405
+100000;crescente;Array ordenado;remocao;4;10000;28320611
+100000;crescente;Array ordenado;remocao;5;10000;28377985
+100000;crescente;Array ordenado;consulta_intervalo;1;200;27401
+100000;crescente;Array ordenado;consulta_intervalo;2;200;26104
+100000;crescente;Array ordenado;consulta_intervalo;3;200;25448
+100000;crescente;Array ordenado;consulta_intervalo;4;200;21042
+100000;crescente;Array ordenado;consulta_intervalo;5;200;16689
+100000;crescente;Lista duplamente encadeada;construcao;1;100000;7618425644
+100000;crescente;Lista duplamente encadeada;construcao;2;100000;7494403606
+100000;crescente;Lista duplamente encadeada;construcao;3;100000;7600735600
+100000;crescente;Lista duplamente encadeada;construcao;4;100000;7594927755
+100000;crescente;Lista duplamente encadeada;construcao;5;100000;7598462375
+100000;crescente;Lista duplamente encadeada;busca_presente;1;2000;155423144
+100000;crescente;Lista duplamente encadeada;busca_presente;2;2000;157400822
+100000;crescente;Lista duplamente encadeada;busca_presente;3;2000;165741945
+100000;crescente;Lista duplamente encadeada;busca_presente;4;2000;157456816
+100000;crescente;Lista duplamente encadeada;busca_presente;5;2000;163225702
+100000;crescente;Lista duplamente encadeada;busca_ausente;1;2000;320422769
+100000;crescente;Lista duplamente encadeada;busca_ausente;2;2000;313203620
+100000;crescente;Lista duplamente encadeada;busca_ausente;3;2000;313050744
+100000;crescente;Lista duplamente encadeada;busca_ausente;4;2000;312485128
+100000;crescente;Lista duplamente encadeada;busca_ausente;5;2000;314344318
+100000;crescente;Lista duplamente encadeada;insercao;1;10000;1572319746
+100000;crescente;Lista duplamente encadeada;insercao;2;10000;1579720763
+100000;crescente;Lista duplamente encadeada;insercao;3;10000;1656442782
+100000;crescente;Lista duplamente encadeada;insercao;4;10000;1634906804
+100000;crescente;Lista duplamente encadeada;insercao;5;10000;1608992922
+100000;crescente;Lista duplamente encadeada;remocao;1;10000;746672831
+100000;crescente;Lista duplamente encadeada;remocao;2;10000;746318709
+100000;crescente;Lista duplamente encadeada;remocao;3;10000;754428570
+100000;crescente;Lista duplamente encadeada;remocao;4;10000;745373374
+100000;crescente;Lista duplamente encadeada;remocao;5;10000;787811771
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;1;200;31525826
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;2;200;31007406
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;3;200;31131450
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;4;200;31201076
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;5;200;31419114
+100000;crescente;Tabela hash;construcao;1;100000;2157773
+100000;crescente;Tabela hash;construcao;2;100000;442234
+100000;crescente;Tabela hash;construcao;3;100000;472321
+100000;crescente;Tabela hash;construcao;4;100000;430678
+100000;crescente;Tabela hash;construcao;5;100000;465885
+100000;crescente;Tabela hash;busca_presente;1;2000;19400
+100000;crescente;Tabela hash;busca_presente;2;2000;23041
+100000;crescente;Tabela hash;busca_presente;3;2000;24977
+100000;crescente;Tabela hash;busca_presente;4;2000;22544
+100000;crescente;Tabela hash;busca_presente;5;2000;20566
+100000;crescente;Tabela hash;busca_ausente;1;2000;16081
+100000;crescente;Tabela hash;busca_ausente;2;2000;14987
+100000;crescente;Tabela hash;busca_ausente;3;2000;13523
+100000;crescente;Tabela hash;busca_ausente;4;2000;13601
+100000;crescente;Tabela hash;busca_ausente;5;2000;17017
+100000;crescente;Tabela hash;insercao;1;10000;409532
+100000;crescente;Tabela hash;insercao;2;10000;379299
+100000;crescente;Tabela hash;insercao;3;10000;367610
+100000;crescente;Tabela hash;insercao;4;10000;388201
+100000;crescente;Tabela hash;insercao;5;10000;419447
+100000;crescente;Tabela hash;remocao;1;10000;71670
+100000;crescente;Tabela hash;remocao;2;10000;115067
+100000;crescente;Tabela hash;remocao;3;10000;106902
+100000;crescente;Tabela hash;remocao;4;10000;124267
+100000;crescente;Tabela hash;remocao;5;10000;244792
+100000;crescente;Tabela hash;consulta_intervalo;1;200;15082737
+100000;crescente;Tabela hash;consulta_intervalo;2;200;15152352
+100000;crescente;Tabela hash;consulta_intervalo;3;200;15093682
+100000;crescente;Tabela hash;consulta_intervalo;4;200;15137725
+100000;crescente;Tabela hash;consulta_intervalo;5;200;15117457
+100000;crescente;Árvore AVL;construcao;1;100000;5325481
+100000;crescente;Árvore AVL;construcao;2;100000;5327680
+100000;crescente;Árvore AVL;construcao;3;100000;5319204
+100000;crescente;Árvore AVL;construcao;4;100000;5247196
+100000;crescente;Árvore AVL;construcao;5;100000;5275447
+100000;crescente;Árvore AVL;busca_presente;1;2000;204114
+100000;crescente;Árvore AVL;busca_presente;2;2000;271306
+100000;crescente;Árvore AVL;busca_presente;3;2000;238510
+100000;crescente;Árvore AVL;busca_presente;4;2000;221641
+100000;crescente;Árvore AVL;busca_presente;5;2000;248749
+100000;crescente;Árvore AVL;busca_ausente;1;2000;254623
+100000;crescente;Árvore AVL;busca_ausente;2;2000;327963
+100000;crescente;Árvore AVL;busca_ausente;3;2000;317476
+100000;crescente;Árvore AVL;busca_ausente;4;2000;333565
+100000;crescente;Árvore AVL;busca_ausente;5;2000;301705
+100000;crescente;Árvore AVL;insercao;1;10000;1660594
+100000;crescente;Árvore AVL;insercao;2;10000;1571074
+100000;crescente;Árvore AVL;insercao;3;10000;1609769
+100000;crescente;Árvore AVL;insercao;4;10000;1673165
+100000;crescente;Árvore AVL;insercao;5;10000;1728883
+100000;crescente;Árvore AVL;remocao;1;10000;1613729
+100000;crescente;Árvore AVL;remocao;2;10000;1583986
+100000;crescente;Árvore AVL;remocao;3;10000;1532326
+100000;crescente;Árvore AVL;remocao;4;10000;1461453
+100000;crescente;Árvore AVL;remocao;5;10000;1496175
+100000;crescente;Árvore AVL;consulta_intervalo;1;200;58732
+100000;crescente;Árvore AVL;consulta_intervalo;2;200;116813
+100000;crescente;Árvore AVL;consulta_intervalo;3;200;71514
+100000;crescente;Árvore AVL;consulta_intervalo;4;200;59841
+100000;crescente;Árvore AVL;consulta_intervalo;5;200;69053
+100000;decrescente;Array ordenado;construcao;1;100000;284562127
+100000;decrescente;Array ordenado;construcao;2;100000;284755599
+100000;decrescente;Array ordenado;construcao;3;100000;283939326
+100000;decrescente;Array ordenado;construcao;4;100000;285689414
+100000;decrescente;Array ordenado;construcao;5;100000;284562132
+100000;decrescente;Array ordenado;busca_presente;1;2000;147653
+100000;decrescente;Array ordenado;busca_presente;2;2000;146590
+100000;decrescente;Array ordenado;busca_presente;3;2000;141311
+100000;decrescente;Array ordenado;busca_presente;4;2000;142526
+100000;decrescente;Array ordenado;busca_presente;5;2000;143513
+100000;decrescente;Array ordenado;busca_ausente;1;2000;146541
+100000;decrescente;Array ordenado;busca_ausente;2;2000;146220
+100000;decrescente;Array ordenado;busca_ausente;3;2000;148538
+100000;decrescente;Array ordenado;busca_ausente;4;2000;148659
+100000;decrescente;Array ordenado;busca_ausente;5;2000;151198
+100000;decrescente;Array ordenado;insercao;1;10000;30843747
+100000;decrescente;Array ordenado;insercao;2;10000;30690987
+100000;decrescente;Array ordenado;insercao;3;10000;30651966
+100000;decrescente;Array ordenado;insercao;4;10000;30706169
+100000;decrescente;Array ordenado;insercao;5;10000;30872270
+100000;decrescente;Array ordenado;remocao;1;10000;27822878
+100000;decrescente;Array ordenado;remocao;2;10000;27927290
+100000;decrescente;Array ordenado;remocao;3;10000;27636988
+100000;decrescente;Array ordenado;remocao;4;10000;27736750
+100000;decrescente;Array ordenado;remocao;5;10000;27786604
+100000;decrescente;Array ordenado;consulta_intervalo;1;200;28407
+100000;decrescente;Array ordenado;consulta_intervalo;2;200;30866
+100000;decrescente;Array ordenado;consulta_intervalo;3;200;28115
+100000;decrescente;Array ordenado;consulta_intervalo;4;200;29600
+100000;decrescente;Array ordenado;consulta_intervalo;5;200;28833
+100000;decrescente;Lista duplamente encadeada;construcao;1;100000;7651978271
+100000;decrescente;Lista duplamente encadeada;construcao;2;100000;7779776430
+100000;decrescente;Lista duplamente encadeada;construcao;3;100000;7585644608
+100000;decrescente;Lista duplamente encadeada;construcao;4;100000;7558942857
+100000;decrescente;Lista duplamente encadeada;construcao;5;100000;7733450676
+100000;decrescente;Lista duplamente encadeada;busca_presente;1;2000;157802903
+100000;decrescente;Lista duplamente encadeada;busca_presente;2;2000;157402576
+100000;decrescente;Lista duplamente encadeada;busca_presente;3;2000;163856976
+100000;decrescente;Lista duplamente encadeada;busca_presente;4;2000;158756157
+100000;decrescente;Lista duplamente encadeada;busca_presente;5;2000;160040082
+100000;decrescente;Lista duplamente encadeada;busca_ausente;1;2000;319736704
+100000;decrescente;Lista duplamente encadeada;busca_ausente;2;2000;338079673
+100000;decrescente;Lista duplamente encadeada;busca_ausente;3;2000;312506533
+100000;decrescente;Lista duplamente encadeada;busca_ausente;4;2000;322189333
+100000;decrescente;Lista duplamente encadeada;busca_ausente;5;2000;314505551
+100000;decrescente;Lista duplamente encadeada;insercao;1;10000;1616286183
+100000;decrescente;Lista duplamente encadeada;insercao;2;10000;1617078337
+100000;decrescente;Lista duplamente encadeada;insercao;3;10000;1569581519
+100000;decrescente;Lista duplamente encadeada;insercao;4;10000;1582763189
+100000;decrescente;Lista duplamente encadeada;insercao;5;10000;1573810098
+100000;decrescente;Lista duplamente encadeada;remocao;1;10000;741638958
+100000;decrescente;Lista duplamente encadeada;remocao;2;10000;752994760
+100000;decrescente;Lista duplamente encadeada;remocao;3;10000;794483382
+100000;decrescente;Lista duplamente encadeada;remocao;4;10000;741089402
+100000;decrescente;Lista duplamente encadeada;remocao;5;10000;738792925
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;1;200;31088395
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;2;200;31178559
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;3;200;31089597
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;4;200;31180891
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;5;200;31074064
+100000;decrescente;Tabela hash;construcao;1;100000;428903
+100000;decrescente;Tabela hash;construcao;2;100000;455480
+100000;decrescente;Tabela hash;construcao;3;100000;429858
+100000;decrescente;Tabela hash;construcao;4;100000;1530680
+100000;decrescente;Tabela hash;construcao;5;100000;454533
+100000;decrescente;Tabela hash;busca_presente;1;2000;16844
+100000;decrescente;Tabela hash;busca_presente;2;2000;18868
+100000;decrescente;Tabela hash;busca_presente;3;2000;19768
+100000;decrescente;Tabela hash;busca_presente;4;2000;19336
+100000;decrescente;Tabela hash;busca_presente;5;2000;19809
+100000;decrescente;Tabela hash;busca_ausente;1;2000;17706
+100000;decrescente;Tabela hash;busca_ausente;2;2000;14269
+100000;decrescente;Tabela hash;busca_ausente;3;2000;13514
+100000;decrescente;Tabela hash;busca_ausente;4;2000;13692
+100000;decrescente;Tabela hash;busca_ausente;5;2000;13554
+100000;decrescente;Tabela hash;insercao;1;10000;347753
+100000;decrescente;Tabela hash;insercao;2;10000;371660
+100000;decrescente;Tabela hash;insercao;3;10000;405430
+100000;decrescente;Tabela hash;insercao;4;10000;417288
+100000;decrescente;Tabela hash;insercao;5;10000;2608932
+100000;decrescente;Tabela hash;remocao;1;10000;65973
+100000;decrescente;Tabela hash;remocao;2;10000;62637
+100000;decrescente;Tabela hash;remocao;3;10000;66382
+100000;decrescente;Tabela hash;remocao;4;10000;65194
+100000;decrescente;Tabela hash;remocao;5;10000;68295
+100000;decrescente;Tabela hash;consulta_intervalo;1;200;15404582
+100000;decrescente;Tabela hash;consulta_intervalo;2;200;15566189
+100000;decrescente;Tabela hash;consulta_intervalo;3;200;15489209
+100000;decrescente;Tabela hash;consulta_intervalo;4;200;15379607
+100000;decrescente;Tabela hash;consulta_intervalo;5;200;15359877
+100000;decrescente;Árvore AVL;construcao;1;100000;5845865
+100000;decrescente;Árvore AVL;construcao;2;100000;7381486
+100000;decrescente;Árvore AVL;construcao;3;100000;6201345
+100000;decrescente;Árvore AVL;construcao;4;100000;6091686
+100000;decrescente;Árvore AVL;construcao;5;100000;6012062
+100000;decrescente;Árvore AVL;busca_presente;1;2000;277316
+100000;decrescente;Árvore AVL;busca_presente;2;2000;311722
+100000;decrescente;Árvore AVL;busca_presente;3;2000;228549
+100000;decrescente;Árvore AVL;busca_presente;4;2000;324562
+100000;decrescente;Árvore AVL;busca_presente;5;2000;257742
+100000;decrescente;Árvore AVL;busca_ausente;1;2000;262346
+100000;decrescente;Árvore AVL;busca_ausente;2;2000;239324
+100000;decrescente;Árvore AVL;busca_ausente;3;2000;230981
+100000;decrescente;Árvore AVL;busca_ausente;4;2000;243833
+100000;decrescente;Árvore AVL;busca_ausente;5;2000;228942
+100000;decrescente;Árvore AVL;insercao;1;10000;1571561
+100000;decrescente;Árvore AVL;insercao;2;10000;1674463
+100000;decrescente;Árvore AVL;insercao;3;10000;1588652
+100000;decrescente;Árvore AVL;insercao;4;10000;1862828
+100000;decrescente;Árvore AVL;insercao;5;10000;1742550
+100000;decrescente;Árvore AVL;remocao;1;10000;1657329
+100000;decrescente;Árvore AVL;remocao;2;10000;1643410
+100000;decrescente;Árvore AVL;remocao;3;10000;1440307
+100000;decrescente;Árvore AVL;remocao;4;10000;1463061
+100000;decrescente;Árvore AVL;remocao;5;10000;1530151
+100000;decrescente;Árvore AVL;consulta_intervalo;1;200;63740
+100000;decrescente;Árvore AVL;consulta_intervalo;2;200;52680
+100000;decrescente;Árvore AVL;consulta_intervalo;3;200;61096
+100000;decrescente;Árvore AVL;consulta_intervalo;4;200;54555
+100000;decrescente;Árvore AVL;consulta_intervalo;5;200;91454
+100000;aleatoria;Array ordenado;construcao;1;100000;147447104
+100000;aleatoria;Array ordenado;construcao;2;100000;148097360
+100000;aleatoria;Array ordenado;construcao;3;100000;147759937
+100000;aleatoria;Array ordenado;construcao;4;100000;147258701
+100000;aleatoria;Array ordenado;construcao;5;100000;147616826
+100000;aleatoria;Array ordenado;busca_presente;1;2000;141785
+100000;aleatoria;Array ordenado;busca_presente;2;2000;154022
+100000;aleatoria;Array ordenado;busca_presente;3;2000;140069
+100000;aleatoria;Array ordenado;busca_presente;4;2000;140313
+100000;aleatoria;Array ordenado;busca_presente;5;2000;145866
+100000;aleatoria;Array ordenado;busca_ausente;1;2000;147969
+100000;aleatoria;Array ordenado;busca_ausente;2;2000;151465
+100000;aleatoria;Array ordenado;busca_ausente;3;2000;157280
+100000;aleatoria;Array ordenado;busca_ausente;4;2000;147564
+100000;aleatoria;Array ordenado;busca_ausente;5;2000;157073
+100000;aleatoria;Array ordenado;insercao;1;10000;30812691
+100000;aleatoria;Array ordenado;insercao;2;10000;30764182
+100000;aleatoria;Array ordenado;insercao;3;10000;30620004
+100000;aleatoria;Array ordenado;insercao;4;10000;30926534
+100000;aleatoria;Array ordenado;insercao;5;10000;30639192
+100000;aleatoria;Array ordenado;remocao;1;10000;27824784
+100000;aleatoria;Array ordenado;remocao;2;10000;27817130
+100000;aleatoria;Array ordenado;remocao;3;10000;27718055
+100000;aleatoria;Array ordenado;remocao;4;10000;27819319
+100000;aleatoria;Array ordenado;remocao;5;10000;27950925
+100000;aleatoria;Array ordenado;consulta_intervalo;1;200;34188
+100000;aleatoria;Array ordenado;consulta_intervalo;2;200;28643
+100000;aleatoria;Array ordenado;consulta_intervalo;3;200;29581
+100000;aleatoria;Array ordenado;consulta_intervalo;4;200;29027
+100000;aleatoria;Array ordenado;consulta_intervalo;5;200;32980
+100000;aleatoria;Lista duplamente encadeada;construcao;1;100000;7523350151
+100000;aleatoria;Lista duplamente encadeada;construcao;2;100000;7548756801
+100000;aleatoria;Lista duplamente encadeada;construcao;3;100000;7481426274
+100000;aleatoria;Lista duplamente encadeada;construcao;4;100000;7618210013
+100000;aleatoria;Lista duplamente encadeada;construcao;5;100000;7606539559
+100000;aleatoria;Lista duplamente encadeada;busca_presente;1;2000;158994976
+100000;aleatoria;Lista duplamente encadeada;busca_presente;2;2000;160952361
+100000;aleatoria;Lista duplamente encadeada;busca_presente;3;2000;163142930
+100000;aleatoria;Lista duplamente encadeada;busca_presente;4;2000;156765344
+100000;aleatoria;Lista duplamente encadeada;busca_presente;5;2000;157053390
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;1;2000;314399566
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;2;2000;326158047
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;3;2000;311286067
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;4;2000;313014663
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;5;2000;311465778
+100000;aleatoria;Lista duplamente encadeada;insercao;1;10000;1600248829
+100000;aleatoria;Lista duplamente encadeada;insercao;2;10000;1622458430
+100000;aleatoria;Lista duplamente encadeada;insercao;3;10000;1601476398
+100000;aleatoria;Lista duplamente encadeada;insercao;4;10000;1590602256
+100000;aleatoria;Lista duplamente encadeada;insercao;5;10000;1583445298
+100000;aleatoria;Lista duplamente encadeada;remocao;1;10000;30549
+100000;aleatoria;Lista duplamente encadeada;remocao;2;10000;31082
+100000;aleatoria;Lista duplamente encadeada;remocao;3;10000;50743
+100000;aleatoria;Lista duplamente encadeada;remocao;4;10000;37566
+100000;aleatoria;Lista duplamente encadeada;remocao;5;10000;32340
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;1;200;62249385
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;2;200;61665211
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;3;200;63345989
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;4;200;62346782
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;5;200;62231588
+100000;aleatoria;Tabela hash;construcao;1;100000;471225
+100000;aleatoria;Tabela hash;construcao;2;100000;464837
+100000;aleatoria;Tabela hash;construcao;3;100000;469849
+100000;aleatoria;Tabela hash;construcao;4;100000;472839
+100000;aleatoria;Tabela hash;construcao;5;100000;463111
+100000;aleatoria;Tabela hash;busca_presente;1;2000;20810
+100000;aleatoria;Tabela hash;busca_presente;2;2000;18591
+100000;aleatoria;Tabela hash;busca_presente;3;2000;10590
+100000;aleatoria;Tabela hash;busca_presente;4;2000;25727
+100000;aleatoria;Tabela hash;busca_presente;5;2000;25161
+100000;aleatoria;Tabela hash;busca_ausente;1;2000;28937
+100000;aleatoria;Tabela hash;busca_ausente;2;2000;17575
+100000;aleatoria;Tabela hash;busca_ausente;3;2000;17252
+100000;aleatoria;Tabela hash;busca_ausente;4;2000;22207
+100000;aleatoria;Tabela hash;busca_ausente;5;2000;17582
+100000;aleatoria;Tabela hash;insercao;1;10000;1122546
+100000;aleatoria;Tabela hash;insercao;2;10000;884598
+100000;aleatoria;Tabela hash;insercao;3;10000;1000939
+100000;aleatoria;Tabela hash;insercao;4;10000;1053925
+100000;aleatoria;Tabela hash;insercao;5;10000;931211
+100000;aleatoria;Tabela hash;remocao;1;10000;34489
+100000;aleatoria;Tabela hash;remocao;2;10000;35494
+100000;aleatoria;Tabela hash;remocao;3;10000;34325
+100000;aleatoria;Tabela hash;remocao;4;10000;36442
+100000;aleatoria;Tabela hash;remocao;5;10000;36698
+100000;aleatoria;Tabela hash;consulta_intervalo;1;200;24934933
+100000;aleatoria;Tabela hash;consulta_intervalo;2;200;24484185
+100000;aleatoria;Tabela hash;consulta_intervalo;3;200;25481759
+100000;aleatoria;Tabela hash;consulta_intervalo;4;200;20518197
+100000;aleatoria;Tabela hash;consulta_intervalo;5;200;26694961
+100000;aleatoria;Árvore AVL;construcao;1;100000;14025919
+100000;aleatoria;Árvore AVL;construcao;2;100000;14666586
+100000;aleatoria;Árvore AVL;construcao;3;100000;13906703
+100000;aleatoria;Árvore AVL;construcao;4;100000;15105524
+100000;aleatoria;Árvore AVL;construcao;5;100000;13896533
+100000;aleatoria;Árvore AVL;busca_presente;1;2000;201771
+100000;aleatoria;Árvore AVL;busca_presente;2;2000;205074
+100000;aleatoria;Árvore AVL;busca_presente;3;2000;204631
+100000;aleatoria;Árvore AVL;busca_presente;4;2000;206824
+100000;aleatoria;Árvore AVL;busca_presente;5;2000;208524
+100000;aleatoria;Árvore AVL;busca_ausente;1;2000;276014
+100000;aleatoria;Árvore AVL;busca_ausente;2;2000;242736
+100000;aleatoria;Árvore AVL;busca_ausente;3;2000;231631
+100000;aleatoria;Árvore AVL;busca_ausente;4;2000;243902
+100000;aleatoria;Árvore AVL;busca_ausente;5;2000;244957
+100000;aleatoria;Árvore AVL;insercao;1;10000;1725854
+100000;aleatoria;Árvore AVL;insercao;2;10000;1610235
+100000;aleatoria;Árvore AVL;insercao;3;10000;1842570
+100000;aleatoria;Árvore AVL;insercao;4;10000;1671925
+100000;aleatoria;Árvore AVL;insercao;5;10000;2295713
+100000;aleatoria;Árvore AVL;remocao;1;10000;1478829
+100000;aleatoria;Árvore AVL;remocao;2;10000;1590710
+100000;aleatoria;Árvore AVL;remocao;3;10000;1542048
+100000;aleatoria;Árvore AVL;remocao;4;10000;1416464
+100000;aleatoria;Árvore AVL;remocao;5;10000;1740662
+100000;aleatoria;Árvore AVL;consulta_intervalo;1;200;138820
+100000;aleatoria;Árvore AVL;consulta_intervalo;2;200;123027
+100000;aleatoria;Árvore AVL;consulta_intervalo;3;200;142598
+100000;aleatoria;Árvore AVL;consulta_intervalo;4;200;141729
+100000;aleatoria;Árvore AVL;consulta_intervalo;5;200;119538
