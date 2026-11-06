@@ -3,7 +3,14 @@ package br.edu.ifc.experimento;
 import java.util.Random;
 
 public class DadosExperimento {
-    private static final int SEMENTE = 42;
+
+    private static final int SEMENTE_ORDEM = 42;
+    private static final int SEMENTE_BUSCA_PRESENTE = 43;
+    private static final int SEMENTE_BUSCA_AUSENTE = 44;
+    private static final int SEMENTE_INSERCAO = 45;
+    private static final int SEMENTE_REMOCAO = 46;
+    private static final int SEMENTE_INTERVALO = 47;
+
     private static final int QUANTIDADE_BUSCAS = 2000;
     private static final int QUANTIDADE_INTERVALOS = 200;
 
@@ -20,21 +27,28 @@ public class DadosExperimento {
             OrdemEntrada ordem
     ) {
         this.tamanho = tamanho;
-        valoresIniciais = gerarValoresIniciais(
-                tamanho,
-                ordem
-        );
-        buscasPresentes = gerarBuscasPresentes(tamanho);
-        buscasAusentes = gerarBuscasAusentes(tamanho);
+
+        valoresIniciais =
+                gerarValoresIniciais(tamanho, ordem);
+
+        buscasPresentes =
+                gerarBuscasPresentes(tamanho);
+
+        buscasAusentes =
+                gerarBuscasAusentes(tamanho);
+
         insercoes = gerarImparesDistintos(
                 tamanho,
                 tamanho / 10
         );
+
         remocoes = gerarRemocoes(
                 tamanho,
                 tamanho / 10
         );
-        intervalosMinimos = gerarIntervalos(tamanho);
+
+        intervalosMinimos =
+                gerarIntervalos(tamanho);
     }
 
     private int[] gerarValoresIniciais(
@@ -52,15 +66,23 @@ public class DadosExperimento {
         }
 
         if (ordem == OrdemEntrada.ALEATORIA) {
-            embaralhar(valores, new Random(SEMENTE));
+            embaralhar(
+                    valores,
+                    new Random(SEMENTE_ORDEM)
+            );
         }
 
         return valores;
     }
 
-    private int[] gerarBuscasPresentes(int tamanho) {
-        int[] valores = new int[QUANTIDADE_BUSCAS];
-        Random random = new Random(SEMENTE);
+    private int[] gerarBuscasPresentes(
+            int tamanho
+    ) {
+        int[] valores =
+                new int[QUANTIDADE_BUSCAS];
+
+        Random random =
+                new Random(SEMENTE_BUSCA_PRESENTE);
 
         for (int i = 0; i < valores.length; i++) {
             int posicao = random.nextInt(tamanho);
@@ -70,12 +92,18 @@ public class DadosExperimento {
         return valores;
     }
 
-    private int[] gerarBuscasAusentes(int tamanho) {
-        int[] valores = new int[QUANTIDADE_BUSCAS];
-        Random random = new Random(SEMENTE);
+    private int[] gerarBuscasAusentes(
+            int tamanho
+    ) {
+        int[] valores =
+                new int[QUANTIDADE_BUSCAS];
+
+        Random random =
+                new Random(SEMENTE_BUSCA_AUSENTE);
 
         for (int i = 0; i < valores.length; i++) {
-            valores[i] = 2 * random.nextInt(tamanho) + 1;
+            valores[i] =
+                    2 * random.nextInt(tamanho) + 1;
         }
 
         return valores;
@@ -87,7 +115,10 @@ public class DadosExperimento {
     ) {
         int[] valores = new int[quantidade];
         boolean[] utilizados = new boolean[tamanho];
-        Random random = new Random(SEMENTE);
+
+        Random random =
+                new Random(SEMENTE_INSERCAO);
+
         int preenchidos = 0;
 
         while (preenchidos < quantidade) {
@@ -95,7 +126,9 @@ public class DadosExperimento {
 
             if (!utilizados[posicao]) {
                 utilizados[posicao] = true;
-                valores[preenchidos] = 2 * posicao + 1;
+                valores[preenchidos] =
+                        2 * posicao + 1;
+
                 preenchidos++;
             }
         }
@@ -113,9 +146,13 @@ public class DadosExperimento {
             valores[i] = 2 * (i + 1);
         }
 
-        embaralhar(valores, new Random(SEMENTE));
+        embaralhar(
+                valores,
+                new Random(SEMENTE_REMOCAO)
+        );
 
         int[] removidos = new int[quantidade];
+
         System.arraycopy(
                 valores,
                 0,
@@ -127,13 +164,20 @@ public class DadosExperimento {
         return removidos;
     }
 
-    private int[] gerarIntervalos(int tamanho) {
-        int[] minimos = new int[QUANTIDADE_INTERVALOS];
-        Random random = new Random(SEMENTE);
+    private int[] gerarIntervalos(
+            int tamanho
+    ) {
+        int[] minimos =
+                new int[QUANTIDADE_INTERVALOS];
+
+        Random random =
+                new Random(SEMENTE_INTERVALO);
+
         int limite = 2 * tamanho - 100;
 
         for (int i = 0; i < minimos.length; i++) {
-            minimos[i] = random.nextInt(limite) + 1;
+            minimos[i] =
+                    random.nextInt(limite) + 1;
         }
 
         return minimos;
@@ -143,8 +187,12 @@ public class DadosExperimento {
             int[] valores,
             Random random
     ) {
-        for (int i = valores.length - 1; i > 0; i--) {
+        for (int i = valores.length - 1;
+             i > 0;
+             i--) {
+
             int posicao = random.nextInt(i + 1);
+
             int temporario = valores[i];
             valores[i] = valores[posicao];
             valores[posicao] = temporario;
@@ -159,18 +207,31 @@ public class DadosExperimento {
             int temporario = valores[inicio];
             valores[inicio] = valores[fim];
             valores[fim] = temporario;
+
             inicio++;
             fim--;
         }
     }
 
-    public long conferenciaEsperada(TipoTeste teste) {
+    public long conferenciaEsperada(
+            TipoTeste teste
+    ) {
         return switch (teste) {
-            case CONSTRUCAO -> tamanho;
-            case BUSCA_PRESENTE -> buscasPresentes.length;
-            case BUSCA_AUSENTE -> 0;
-            case INSERCAO -> insercoes.length;
-            case REMOCAO -> remocoes.length;
+            case CONSTRUCAO ->
+                    tamanho;
+
+            case BUSCA_PRESENTE ->
+                    buscasPresentes.length;
+
+            case BUSCA_AUSENTE ->
+                    0;
+
+            case INSERCAO ->
+                    insercoes.length;
+
+            case REMOCAO ->
+                    remocoes.length;
+
             case CONSULTA_INTERVALO ->
                     calcularTotalEsperadoIntervalos();
         };
@@ -181,20 +242,36 @@ public class DadosExperimento {
 
         for (int minimo : intervalosMinimos) {
             int maximo = minimo + 100;
-            int quantidade = maximo / 2 - (minimo - 1) / 2;
+
+            int quantidade =
+                    maximo / 2
+                            - (minimo - 1) / 2;
+
             total += quantidade;
         }
 
         return total;
     }
 
-    public int quantidadeOperacoes(TipoTeste teste) {
+    public int quantidadeOperacoes(
+            TipoTeste teste
+    ) {
         return switch (teste) {
-            case CONSTRUCAO -> valoresIniciais.length;
-            case BUSCA_PRESENTE -> buscasPresentes.length;
-            case BUSCA_AUSENTE -> buscasAusentes.length;
-            case INSERCAO -> insercoes.length;
-            case REMOCAO -> remocoes.length;
+            case CONSTRUCAO ->
+                    valoresIniciais.length;
+
+            case BUSCA_PRESENTE ->
+                    buscasPresentes.length;
+
+            case BUSCA_AUSENTE ->
+                    buscasAusentes.length;
+
+            case INSERCAO ->
+                    insercoes.length;
+
+            case REMOCAO ->
+                    remocoes.length;
+
             case CONSULTA_INTERVALO ->
                     intervalosMinimos.length;
         };
