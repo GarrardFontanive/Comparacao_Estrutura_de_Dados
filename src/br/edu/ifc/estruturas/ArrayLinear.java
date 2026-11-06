@@ -1,12 +1,15 @@
 package br.edu.ifc.estruturas;
 
 public class ArrayLinear implements EstruturaDados {
+
     private final int[] elementos;
     private int tamanho;
 
     public ArrayLinear(int capacidade) {
         if (capacidade <= 0) {
-            throw new IllegalArgumentException("A capacidade deve ser positiva");
+            throw new IllegalArgumentException(
+                    "A capacidade deve ser positiva"
+            );
         }
 
         elementos = new int[capacidade];
@@ -14,26 +17,17 @@ public class ArrayLinear implements EstruturaDados {
 
     @Override
     public boolean inserir(int valor) {
-        int posicao = localizar(valor);
-
-        if (posicao >= 0) {
+        if (buscar(valor)) {
             return false;
         }
 
         if (tamanho == elementos.length) {
-            throw new IllegalStateException("Capacidade do array esgotada");
+            throw new IllegalStateException(
+                    "Capacidade do array esgotada"
+            );
         }
 
-        posicao = -posicao - 1;
-
-        System.arraycopy(
-                elementos,
-                posicao,
-                elementos,
-                posicao + 1,
-                tamanho - posicao
-        );
-        elementos[posicao] = valor;
+        elementos[tamanho] = valor;
         tamanho++;
 
         return true;
@@ -47,19 +41,21 @@ public class ArrayLinear implements EstruturaDados {
     @Override
     public boolean excluir(int valor) {
         int posicao = localizar(valor);
+
         if (posicao < 0) {
             return false;
         }
 
-        int quantidade = tamanho - posicao - 1;
+        int quantidadeDeslocada =
+                tamanho - posicao - 1;
 
-        if (quantidade > 0) {
+        if (quantidadeDeslocada > 0) {
             System.arraycopy(
                     elementos,
                     posicao + 1,
                     elementos,
                     posicao,
-                    quantidade
+                    quantidadeDeslocada
             );
         }
 
@@ -69,13 +65,25 @@ public class ArrayLinear implements EstruturaDados {
     }
 
     @Override
-    public int contarIntervalo(int minimo, int maximo) {
+    public int contarIntervalo(
+            int minimo,
+            int maximo
+    ) {
         if (minimo > maximo) {
             return 0;
         }
 
-        return primeiroMaiorQue(maximo)
-                - primeiroMaiorOuIgual(minimo);
+        int quantidade = 0;
+
+        for (int i = 0; i < tamanho; i++) {
+            if (elementos[i] >= minimo
+                    && elementos[i] <= maximo) {
+
+                quantidade++;
+            }
+        }
+
+        return quantidade;
     }
 
     @Override
@@ -85,59 +93,16 @@ public class ArrayLinear implements EstruturaDados {
 
     @Override
     public String nome() {
-        return "Array Linear";
+        return "Array linear";
     }
 
     private int localizar(int valor) {
-        int inicio = 0;
-        int fim = tamanho - 1;
-
-        while (inicio <= fim) {
-            int meio = (inicio + fim) >>> 1;
-
-            if (elementos[meio] < valor) {
-                inicio = meio + 1;
-            } else if (elementos[meio] > valor) {
-                fim = meio - 1;
-            } else {
-                return meio;
+        for (int i = 0; i < tamanho; i++) {
+            if (elementos[i] == valor) {
+                return i;
             }
         }
 
-        return -inicio - 1;
-    }
-
-    private int primeiroMaiorOuIgual(int valor) {
-        int inicio = 0;
-        int fim = tamanho;
-
-        while (inicio < fim) {
-            int meio = (inicio + fim) >>> 1;
-
-            if (elementos[meio] < valor) {
-                inicio = meio + 1;
-            } else {
-                fim = meio;
-            }
-        }
-
-        return inicio;
-    }
-
-    private int primeiroMaiorQue(int valor) {
-        int inicio = 0;
-        int fim = tamanho;
-
-        while (inicio < fim) {
-            int meio = (inicio + fim) >>> 1;
-
-            if (elementos[meio] <= valor) {
-                inicio = meio + 1;
-            } else {
-                fim = meio;
-            }
-        }
-
-        return inicio;
+        return -1;
     }
 }
