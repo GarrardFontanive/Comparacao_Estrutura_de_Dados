@@ -1,217 +1,379 @@
 tamanho;ordem;estrutura;teste;mediana_tempo_total_ms;mediana_tempo_operacao_ns
-5000;crescente;Array ordenado;construcao;0.232222;46.444400
-5000;crescente;Array ordenado;busca_presente;0.196906;98.453000
-5000;crescente;Array ordenado;busca_ausente;0.187464;93.732000
-5000;crescente;Array ordenado;insercao;0.129815;259.630000
-5000;crescente;Array ordenado;remocao;0.161168;322.336000
-5000;crescente;Array ordenado;consulta_intervalo;0.046014;230.070000
-5000;crescente;Lista duplamente encadeada;construcao;19.226979;3845.395800
-5000;crescente;Lista duplamente encadeada;busca_presente;7.890532;3945.266000
-5000;crescente;Lista duplamente encadeada;busca_ausente;16.480909;8240.454500
-5000;crescente;Lista duplamente encadeada;insercao;3.978099;7956.198000
-5000;crescente;Lista duplamente encadeada;remocao;1.797052;3594.104000
-5000;crescente;Lista duplamente encadeada;consulta_intervalo;1.601945;8009.725000
-5000;crescente;Tabela hash;construcao;0.053551;10.710200
-5000;crescente;Tabela hash;busca_presente;0.042720;21.360000
-5000;crescente;Tabela hash;busca_ausente;0.046162;23.081000
-5000;crescente;Tabela hash;insercao;0.215769;431.538000
-5000;crescente;Tabela hash;remocao;0.025575;51.150000
-5000;crescente;Tabela hash;consulta_intervalo;0.832286;4161.430000
-5000;crescente;Árvore AVL;construcao;0.594139;118.827800
-5000;crescente;Árvore AVL;busca_presente;0.126934;63.467000
-5000;crescente;Árvore AVL;busca_ausente;0.143289;71.644500
-5000;crescente;Árvore AVL;insercao;0.081186;162.372000
-5000;crescente;Árvore AVL;remocao;0.098101;196.202000
-5000;crescente;Árvore AVL;consulta_intervalo;0.078556;392.780000
-5000;decrescente;Array ordenado;construcao;0.597457;119.491400
-5000;decrescente;Array ordenado;busca_presente;0.103309;51.654500
-5000;decrescente;Array ordenado;busca_ausente;0.140427;70.213500
-5000;decrescente;Array ordenado;insercao;0.089236;178.472000
-5000;decrescente;Array ordenado;remocao;0.083479;166.958000
-5000;decrescente;Array ordenado;consulta_intervalo;0.033264;166.320000
-5000;decrescente;Lista duplamente encadeada;construcao;18.671548;3734.309600
-5000;decrescente;Lista duplamente encadeada;busca_presente;8.076650;4038.325000
-5000;decrescente;Lista duplamente encadeada;busca_ausente;15.672901;7836.450500
-5000;decrescente;Lista duplamente encadeada;insercao;3.975998;7951.996000
-5000;decrescente;Lista duplamente encadeada;remocao;1.969050;3938.100000
-5000;decrescente;Lista duplamente encadeada;consulta_intervalo;1.597620;7988.100000
-5000;decrescente;Tabela hash;construcao;0.021902;4.380400
-5000;decrescente;Tabela hash;busca_presente;0.005653;2.826500
-5000;decrescente;Tabela hash;busca_ausente;0.011492;5.746000
-5000;decrescente;Tabela hash;insercao;0.094880;189.760000
-5000;decrescente;Tabela hash;remocao;0.015132;30.264000
-5000;decrescente;Tabela hash;consulta_intervalo;0.792382;3961.910000
-5000;decrescente;Árvore AVL;construcao;0.222916;44.583200
-5000;decrescente;Árvore AVL;busca_presente;0.109758;54.879000
-5000;decrescente;Árvore AVL;busca_ausente;0.109832;54.916000
-5000;decrescente;Árvore AVL;insercao;0.045919;91.838000
-5000;decrescente;Árvore AVL;remocao;0.043349;86.698000
-5000;decrescente;Árvore AVL;consulta_intervalo;0.040596;202.980000
-5000;aleatoria;Array ordenado;construcao;0.490105;98.021000
-5000;aleatoria;Array ordenado;busca_presente;0.102120;51.060000
-5000;aleatoria;Array ordenado;busca_ausente;0.099566;49.783000
-5000;aleatoria;Array ordenado;insercao;0.092811;185.622000
-5000;aleatoria;Array ordenado;remocao;0.085976;171.952000
-5000;aleatoria;Array ordenado;consulta_intervalo;0.024332;121.660000
-5000;aleatoria;Lista duplamente encadeada;construcao;18.881457;3776.291400
-5000;aleatoria;Lista duplamente encadeada;busca_presente;8.017528;4008.764000
-5000;aleatoria;Lista duplamente encadeada;busca_ausente;15.859740;7929.870000
-5000;aleatoria;Lista duplamente encadeada;insercao;3.954045;7908.090000
-5000;aleatoria;Lista duplamente encadeada;remocao;0.016634;33.268000
-5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;3.207161;16035.805000
-5000;aleatoria;Tabela hash;construcao;0.021969;4.393800
-5000;aleatoria;Tabela hash;busca_presente;0.005559;2.779500
-5000;aleatoria;Tabela hash;busca_ausente;0.011728;5.864000
-5000;aleatoria;Tabela hash;insercao;0.044823;89.646000
-5000;aleatoria;Tabela hash;remocao;0.011815;23.630000
-5000;aleatoria;Tabela hash;consulta_intervalo;0.895892;4479.460000
-5000;aleatoria;Árvore AVL;construcao;0.426574;85.314800
-5000;aleatoria;Árvore AVL;busca_presente;0.115137;57.568500
-5000;aleatoria;Árvore AVL;busca_ausente;0.130223;65.111500
-5000;aleatoria;Árvore AVL;insercao;0.051864;103.728000
-5000;aleatoria;Árvore AVL;remocao;0.047436;94.872000
-5000;aleatoria;Árvore AVL;consulta_intervalo;0.068000;340.000000
-10000;crescente;Array ordenado;construcao;0.101228;10.122800
-10000;crescente;Array ordenado;busca_presente;0.099410;49.705000
-10000;crescente;Array ordenado;busca_ausente;0.106403;53.201500
-10000;crescente;Array ordenado;insercao;0.288520;288.520000
-10000;crescente;Array ordenado;remocao;0.257763;257.763000
-10000;crescente;Array ordenado;consulta_intervalo;0.014029;70.145000
-10000;crescente;Lista duplamente encadeada;construcao;75.467425;7546.742500
-10000;crescente;Lista duplamente encadeada;busca_presente;15.698375;7849.187500
-10000;crescente;Lista duplamente encadeada;busca_ausente;31.033975;15516.987500
-10000;crescente;Lista duplamente encadeada;insercao;15.604334;15604.334000
-10000;crescente;Lista duplamente encadeada;remocao;7.667527;7667.527000
-10000;crescente;Lista duplamente encadeada;consulta_intervalo;3.119034;15595.170000
-10000;crescente;Tabela hash;construcao;0.046239;4.623900
-10000;crescente;Tabela hash;busca_presente;0.005949;2.974500
-10000;crescente;Tabela hash;busca_ausente;0.013019;6.509500
-10000;crescente;Tabela hash;insercao;0.051544;51.544000
-10000;crescente;Tabela hash;remocao;0.018832;18.832000
-10000;crescente;Tabela hash;consulta_intervalo;1.523992;7619.960000
-10000;crescente;Árvore AVL;construcao;0.401683;40.168300
-10000;crescente;Árvore AVL;busca_presente;0.129022;64.511000
-10000;crescente;Árvore AVL;busca_ausente;0.139276;69.638000
-10000;crescente;Árvore AVL;insercao;0.098940;98.940000
-10000;crescente;Árvore AVL;remocao;0.109313;109.313000
-10000;crescente;Árvore AVL;consulta_intervalo;0.040668;203.340000
-10000;decrescente;Array ordenado;construcao;2.070705;207.070500
-10000;decrescente;Array ordenado;busca_presente;0.105199;52.599500
-10000;decrescente;Array ordenado;busca_ausente;0.108427;54.213500
-10000;decrescente;Array ordenado;insercao;0.291741;291.741000
-10000;decrescente;Array ordenado;remocao;0.236999;236.999000
-10000;decrescente;Array ordenado;consulta_intervalo;0.021442;107.210000
-10000;decrescente;Lista duplamente encadeada;construcao;74.848726;7484.872600
-10000;decrescente;Lista duplamente encadeada;busca_presente;15.464304;7732.152000
-10000;decrescente;Lista duplamente encadeada;busca_ausente;31.158488;15579.244000
-10000;decrescente;Lista duplamente encadeada;insercao;15.635914;15635.914000
-10000;decrescente;Lista duplamente encadeada;remocao;7.157004;7157.004000
-10000;decrescente;Lista duplamente encadeada;consulta_intervalo;3.107430;15537.150000
-10000;decrescente;Tabela hash;construcao;0.046897;4.689700
-10000;decrescente;Tabela hash;busca_presente;0.005804;2.902000
-10000;decrescente;Tabela hash;busca_ausente;0.012578;6.289000
-10000;decrescente;Tabela hash;insercao;0.043056;43.056000
-10000;decrescente;Tabela hash;remocao;0.006045;6.045000
-10000;decrescente;Tabela hash;consulta_intervalo;1.560783;7803.915000
-10000;decrescente;Árvore AVL;construcao;0.462051;46.205100
-10000;decrescente;Árvore AVL;busca_presente;0.126777;63.388500
-10000;decrescente;Árvore AVL;busca_ausente;0.141675;70.837500
-10000;decrescente;Árvore AVL;insercao;0.097943;97.943000
-10000;decrescente;Árvore AVL;remocao;0.095032;95.032000
-10000;decrescente;Árvore AVL;consulta_intervalo;0.038134;190.670000
-10000;aleatoria;Array ordenado;construcao;1.541134;154.113400
-10000;aleatoria;Array ordenado;busca_presente;0.104349;52.174500
-10000;aleatoria;Array ordenado;busca_ausente;0.114031;57.015500
-10000;aleatoria;Array ordenado;insercao;0.274685;274.685000
-10000;aleatoria;Array ordenado;remocao;0.237271;237.271000
-10000;aleatoria;Array ordenado;consulta_intervalo;0.021718;108.590000
-10000;aleatoria;Lista duplamente encadeada;construcao;75.548654;7554.865400
-10000;aleatoria;Lista duplamente encadeada;busca_presente;15.422824;7711.412000
-10000;aleatoria;Lista duplamente encadeada;busca_ausente;31.390525;15695.262500
-10000;aleatoria;Lista duplamente encadeada;insercao;15.626545;15626.545000
-10000;aleatoria;Lista duplamente encadeada;remocao;0.003332;3.332000
-10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;6.393456;31967.280000
-10000;aleatoria;Tabela hash;construcao;0.043856;4.385600
-10000;aleatoria;Tabela hash;busca_presente;0.005906;2.953000
-10000;aleatoria;Tabela hash;busca_ausente;0.012341;6.170500
-10000;aleatoria;Tabela hash;insercao;0.038202;38.202000
-10000;aleatoria;Tabela hash;remocao;0.003165;3.165000
-10000;aleatoria;Tabela hash;consulta_intervalo;1.885859;9429.295000
-10000;aleatoria;Árvore AVL;construcao;0.954761;95.476100
-10000;aleatoria;Árvore AVL;busca_presente;0.130091;65.045500
-10000;aleatoria;Árvore AVL;busca_ausente;0.138425;69.212500
-10000;aleatoria;Árvore AVL;insercao;0.110386;110.386000
-10000;aleatoria;Árvore AVL;remocao;0.097044;97.044000
-10000;aleatoria;Árvore AVL;consulta_intervalo;0.071390;356.950000
-100000;crescente;Array ordenado;construcao;1.181871;11.818710
-100000;crescente;Array ordenado;busca_presente;0.137141;68.570500
-100000;crescente;Array ordenado;busca_ausente;0.143219;71.609500
-100000;crescente;Array ordenado;insercao;31.201825;3120.182500
-100000;crescente;Array ordenado;remocao;28.045698;2804.569800
-100000;crescente;Array ordenado;consulta_intervalo;0.025448;127.240000
-100000;crescente;Lista duplamente encadeada;construcao;7598.462375;75984.623750
-100000;crescente;Lista duplamente encadeada;busca_presente;157.456816;78728.408000
-100000;crescente;Lista duplamente encadeada;busca_ausente;313.203620;156601.810000
-100000;crescente;Lista duplamente encadeada;insercao;1608.992922;160899.292200
-100000;crescente;Lista duplamente encadeada;remocao;746.672831;74667.283100
-100000;crescente;Lista duplamente encadeada;consulta_intervalo;31.201076;156005.380000
-100000;crescente;Tabela hash;construcao;0.465885;4.658850
-100000;crescente;Tabela hash;busca_presente;0.022544;11.272000
-100000;crescente;Tabela hash;busca_ausente;0.014987;7.493500
-100000;crescente;Tabela hash;insercao;0.388201;38.820100
-100000;crescente;Tabela hash;remocao;0.115067;11.506700
-100000;crescente;Tabela hash;consulta_intervalo;15.117457;75587.285000
-100000;crescente;Árvore AVL;construcao;5.319204;53.192040
-100000;crescente;Árvore AVL;busca_presente;0.238510;119.255000
-100000;crescente;Árvore AVL;busca_ausente;0.317476;158.738000
-100000;crescente;Árvore AVL;insercao;1.660594;166.059400
-100000;crescente;Árvore AVL;remocao;1.532326;153.232600
-100000;crescente;Árvore AVL;consulta_intervalo;0.069053;345.265000
-100000;decrescente;Array ordenado;construcao;284.562132;2845.621320
-100000;decrescente;Array ordenado;busca_presente;0.143513;71.756500
-100000;decrescente;Array ordenado;busca_ausente;0.148538;74.269000
-100000;decrescente;Array ordenado;insercao;30.706169;3070.616900
-100000;decrescente;Array ordenado;remocao;27.786604;2778.660400
-100000;decrescente;Array ordenado;consulta_intervalo;0.028833;144.165000
-100000;decrescente;Lista duplamente encadeada;construcao;7651.978271;76519.782710
-100000;decrescente;Lista duplamente encadeada;busca_presente;158.756157;79378.078500
-100000;decrescente;Lista duplamente encadeada;busca_ausente;319.736704;159868.352000
-100000;decrescente;Lista duplamente encadeada;insercao;1582.763189;158276.318900
-100000;decrescente;Lista duplamente encadeada;remocao;741.638958;74163.895800
-100000;decrescente;Lista duplamente encadeada;consulta_intervalo;31.089597;155447.985000
-100000;decrescente;Tabela hash;construcao;0.454533;4.545330
-100000;decrescente;Tabela hash;busca_presente;0.019336;9.668000
-100000;decrescente;Tabela hash;busca_ausente;0.013692;6.846000
-100000;decrescente;Tabela hash;insercao;0.405430;40.543000
-100000;decrescente;Tabela hash;remocao;0.065973;6.597300
-100000;decrescente;Tabela hash;consulta_intervalo;15.404582;77022.910000
-100000;decrescente;Árvore AVL;construcao;6.091686;60.916860
-100000;decrescente;Árvore AVL;busca_presente;0.277316;138.658000
-100000;decrescente;Árvore AVL;busca_ausente;0.239324;119.662000
-100000;decrescente;Árvore AVL;insercao;1.674463;167.446300
-100000;decrescente;Árvore AVL;remocao;1.530151;153.015100
-100000;decrescente;Árvore AVL;consulta_intervalo;0.061096;305.480000
-100000;aleatoria;Array ordenado;construcao;147.616826;1476.168260
-100000;aleatoria;Array ordenado;busca_presente;0.141785;70.892500
-100000;aleatoria;Array ordenado;busca_ausente;0.151465;75.732500
-100000;aleatoria;Array ordenado;insercao;30.764182;3076.418200
-100000;aleatoria;Array ordenado;remocao;27.819319;2781.931900
-100000;aleatoria;Array ordenado;consulta_intervalo;0.029581;147.905000
-100000;aleatoria;Lista duplamente encadeada;construcao;7548.756801;75487.568010
-100000;aleatoria;Lista duplamente encadeada;busca_presente;158.994976;79497.488000
-100000;aleatoria;Lista duplamente encadeada;busca_ausente;313.014663;156507.331500
-100000;aleatoria;Lista duplamente encadeada;insercao;1600.248829;160024.882900
-100000;aleatoria;Lista duplamente encadeada;remocao;0.032340;3.234000
-100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;62.249385;311246.925000
-100000;aleatoria;Tabela hash;construcao;0.469849;4.698490
-100000;aleatoria;Tabela hash;busca_presente;0.020810;10.405000
-100000;aleatoria;Tabela hash;busca_ausente;0.017582;8.791000
-100000;aleatoria;Tabela hash;insercao;1.000939;100.093900
-100000;aleatoria;Tabela hash;remocao;0.035494;3.549400
-100000;aleatoria;Tabela hash;consulta_intervalo;24.934933;124674.665000
-100000;aleatoria;Árvore AVL;construcao;14.025919;140.259190
-100000;aleatoria;Árvore AVL;busca_presente;0.205074;102.537000
-100000;aleatoria;Árvore AVL;busca_ausente;0.243902;121.951000
-100000;aleatoria;Árvore AVL;insercao;1.725854;172.585400
-100000;aleatoria;Árvore AVL;remocao;1.542048;154.204800
-100000;aleatoria;Árvore AVL;consulta_intervalo;0.138820;694.100000
+5000;crescente;Array linear;construcao;1.784212;356.842400
+5000;crescente;Array linear;busca_presente;0.711458;355.729000
+5000;crescente;Array linear;busca_ausente;1.417501;708.750500
+5000;crescente;Array linear;insercao;0.377349;754.698000
+5000;crescente;Array linear;remocao;0.280336;560.672000
+5000;crescente;Array linear;consulta_intervalo;0.248020;1240.100000
+5000;crescente;Array ordenado;construcao;0.166791;33.358200
+5000;crescente;Array ordenado;busca_presente;0.157433;78.716500
+5000;crescente;Array ordenado;busca_ausente;0.151372;75.686000
+5000;crescente;Array ordenado;insercao;0.102113;204.226000
+5000;crescente;Array ordenado;remocao;0.162951;325.902000
+5000;crescente;Array ordenado;consulta_intervalo;0.062452;312.260000
+5000;crescente;Lista duplamente encadeada;construcao;19.049230;3809.846000
+5000;crescente;Lista duplamente encadeada;busca_presente;7.779877;3889.938500
+5000;crescente;Lista duplamente encadeada;busca_ausente;15.847537;7923.768500
+5000;crescente;Lista duplamente encadeada;insercao;4.009752;8019.504000
+5000;crescente;Lista duplamente encadeada;remocao;1.880179;3760.358000
+5000;crescente;Lista duplamente encadeada;consulta_intervalo;1.611834;8059.170000
+5000;crescente;Tabela hash;construcao;0.057187;11.437400
+5000;crescente;Tabela hash;busca_presente;0.018100;9.050000
+5000;crescente;Tabela hash;busca_ausente;0.025307;12.653500
+5000;crescente;Tabela hash;insercao;0.298700;597.400000
+5000;crescente;Tabela hash;remocao;0.034942;69.884000
+5000;crescente;Tabela hash;consulta_intervalo;1.054993;5274.965000
+5000;crescente;Árvore binária de busca;construcao;31.087116;6217.423200
+5000;crescente;Árvore binária de busca;busca_presente;7.723632;3861.816000
+5000;crescente;Árvore binária de busca;busca_ausente;7.994622;3997.311000
+5000;crescente;Árvore binária de busca;insercao;3.011146;6022.292000
+5000;crescente;Árvore binária de busca;remocao;1.590747;3181.494000
+5000;crescente;Árvore binária de busca;consulta_intervalo;1.832800;9164.000000
+5000;crescente;Árvore AVL;construcao;0.604249;120.849800
+5000;crescente;Árvore AVL;busca_presente;0.126746;63.373000
+5000;crescente;Árvore AVL;busca_ausente;0.136253;68.126500
+5000;crescente;Árvore AVL;insercao;0.085133;170.266000
+5000;crescente;Árvore AVL;remocao;0.087160;174.320000
+5000;crescente;Árvore AVL;consulta_intervalo;0.066762;333.810000
+5000;crescente;Árvore rubro-negra;construcao;0.862899;172.579800
+5000;crescente;Árvore rubro-negra;busca_presente;0.121321;60.660500
+5000;crescente;Árvore rubro-negra;busca_ausente;0.125328;62.664000
+5000;crescente;Árvore rubro-negra;insercao;0.070599;141.198000
+5000;crescente;Árvore rubro-negra;remocao;0.186285;372.570000
+5000;crescente;Árvore rubro-negra;consulta_intervalo;0.069163;345.815000
+5000;decrescente;Array linear;construcao;1.797034;359.406800
+5000;decrescente;Array linear;busca_presente;0.695376;347.688000
+5000;decrescente;Array linear;busca_ausente;1.293238;646.619000
+5000;decrescente;Array linear;insercao;0.398367;796.734000
+5000;decrescente;Array linear;remocao;0.238277;476.554000
+5000;decrescente;Array linear;consulta_intervalo;0.244976;1224.880000
+5000;decrescente;Array ordenado;construcao;0.541336;108.267200
+5000;decrescente;Array ordenado;busca_presente;0.098311;49.155500
+5000;decrescente;Array ordenado;busca_ausente;0.102442;51.221000
+5000;decrescente;Array ordenado;insercao;0.092276;184.552000
+5000;decrescente;Array ordenado;remocao;0.086063;172.126000
+5000;decrescente;Array ordenado;consulta_intervalo;0.033592;167.960000
+5000;decrescente;Lista duplamente encadeada;construcao;19.814231;3962.846200
+5000;decrescente;Lista duplamente encadeada;busca_presente;8.107459;4053.729500
+5000;decrescente;Lista duplamente encadeada;busca_ausente;15.691024;7845.512000
+5000;decrescente;Lista duplamente encadeada;insercao;4.057587;8115.174000
+5000;decrescente;Lista duplamente encadeada;remocao;1.920390;3840.780000
+5000;decrescente;Lista duplamente encadeada;consulta_intervalo;1.590393;7951.965000
+5000;decrescente;Tabela hash;construcao;0.025637;5.127400
+5000;decrescente;Tabela hash;busca_presente;0.006138;3.069000
+5000;decrescente;Tabela hash;busca_ausente;0.012019;6.009500
+5000;decrescente;Tabela hash;insercao;0.047641;95.282000
+5000;decrescente;Tabela hash;remocao;0.012392;24.784000
+5000;decrescente;Tabela hash;consulta_intervalo;0.885954;4429.770000
+5000;decrescente;Árvore binária de busca;construcao;30.902722;6180.544400
+5000;decrescente;Árvore binária de busca;busca_presente;8.090443;4045.221500
+5000;decrescente;Árvore binária de busca;busca_ausente;8.130569;4065.284500
+5000;decrescente;Árvore binária de busca;insercao;3.166193;6332.386000
+5000;decrescente;Árvore binária de busca;remocao;1.623727;3247.454000
+5000;decrescente;Árvore binária de busca;consulta_intervalo;1.718252;8591.260000
+5000;decrescente;Árvore AVL;construcao;0.393684;78.736800
+5000;decrescente;Árvore AVL;busca_presente;0.106920;53.460000
+5000;decrescente;Árvore AVL;busca_ausente;0.115867;57.933500
+5000;decrescente;Árvore AVL;insercao;0.042640;85.280000
+5000;decrescente;Árvore AVL;remocao;0.047938;95.876000
+5000;decrescente;Árvore AVL;consulta_intervalo;0.040827;204.135000
+5000;decrescente;Árvore rubro-negra;construcao;0.541981;108.396200
+5000;decrescente;Árvore rubro-negra;busca_presente;0.108568;54.284000
+5000;decrescente;Árvore rubro-negra;busca_ausente;0.119218;59.609000
+5000;decrescente;Árvore rubro-negra;insercao;0.051777;103.554000
+5000;decrescente;Árvore rubro-negra;remocao;0.119751;239.502000
+5000;decrescente;Árvore rubro-negra;consulta_intervalo;0.043662;218.310000
+5000;aleatoria;Array linear;construcao;1.717601;343.520200
+5000;aleatoria;Array linear;busca_presente;0.671916;335.958000
+5000;aleatoria;Array linear;busca_ausente;1.414662;707.331000
+5000;aleatoria;Array linear;insercao;0.420375;840.750000
+5000;aleatoria;Array linear;remocao;0.236452;472.904000
+5000;aleatoria;Array linear;consulta_intervalo;1.906917;9534.585000
+5000;aleatoria;Array ordenado;construcao;0.503504;100.700800
+5000;aleatoria;Array ordenado;busca_presente;0.108097;54.048500
+5000;aleatoria;Array ordenado;busca_ausente;0.111995;55.997500
+5000;aleatoria;Array ordenado;insercao;0.096498;192.996000
+5000;aleatoria;Array ordenado;remocao;0.086871;173.742000
+5000;aleatoria;Array ordenado;consulta_intervalo;0.026283;131.415000
+5000;aleatoria;Lista duplamente encadeada;construcao;18.985591;3797.118200
+5000;aleatoria;Lista duplamente encadeada;busca_presente;8.124354;4062.177000
+5000;aleatoria;Lista duplamente encadeada;busca_ausente;16.064053;8032.026500
+5000;aleatoria;Lista duplamente encadeada;insercao;4.038275;8076.550000
+5000;aleatoria;Lista duplamente encadeada;remocao;1.903608;3807.216000
+5000;aleatoria;Lista duplamente encadeada;consulta_intervalo;3.340933;16704.665000
+5000;aleatoria;Tabela hash;construcao;0.028079;5.615800
+5000;aleatoria;Tabela hash;busca_presente;0.007013;3.506500
+5000;aleatoria;Tabela hash;busca_ausente;0.014519;7.259500
+5000;aleatoria;Tabela hash;insercao;0.023370;46.740000
+5000;aleatoria;Tabela hash;remocao;0.003468;6.936000
+5000;aleatoria;Tabela hash;consulta_intervalo;1.201282;6006.410000
+5000;aleatoria;Árvore binária de busca;construcao;0.369787;73.957400
+5000;aleatoria;Árvore binária de busca;busca_presente;0.147088;73.544000
+5000;aleatoria;Árvore binária de busca;busca_ausente;0.152733;76.366500
+5000;aleatoria;Árvore binária de busca;insercao;0.040647;81.294000
+5000;aleatoria;Árvore binária de busca;remocao;0.045868;91.736000
+5000;aleatoria;Árvore binária de busca;consulta_intervalo;0.396474;1982.370000
+5000;aleatoria;Árvore AVL;construcao;0.462348;92.469600
+5000;aleatoria;Árvore AVL;busca_presente;0.144925;72.462500
+5000;aleatoria;Árvore AVL;busca_ausente;0.157631;78.815500
+5000;aleatoria;Árvore AVL;insercao;0.060545;121.090000
+5000;aleatoria;Árvore AVL;remocao;0.059212;118.424000
+5000;aleatoria;Árvore AVL;consulta_intervalo;0.095184;475.920000
+5000;aleatoria;Árvore rubro-negra;construcao;0.614495;122.899000
+5000;aleatoria;Árvore rubro-negra;busca_presente;0.143531;71.765500
+5000;aleatoria;Árvore rubro-negra;busca_ausente;0.140394;70.197000
+5000;aleatoria;Árvore rubro-negra;insercao;0.070654;141.308000
+5000;aleatoria;Árvore rubro-negra;remocao;0.146292;292.584000
+5000;aleatoria;Árvore rubro-negra;consulta_intervalo;0.082805;414.025000
+10000;crescente;Array linear;construcao;7.961966;796.196600
+10000;crescente;Array linear;busca_presente;1.410961;705.480500
+10000;crescente;Array linear;busca_ausente;2.892219;1446.109500
+10000;crescente;Array linear;insercao;1.581050;1581.050000
+10000;crescente;Array linear;remocao;0.952258;952.258000
+10000;crescente;Array linear;consulta_intervalo;0.464031;2320.155000
+10000;crescente;Array ordenado;construcao;0.118061;11.806100
+10000;crescente;Array ordenado;busca_presente;0.113926;56.963000
+10000;crescente;Array ordenado;busca_ausente;0.135367;67.683500
+10000;crescente;Array ordenado;insercao;0.344806;344.806000
+10000;crescente;Array ordenado;remocao;0.290790;290.790000
+10000;crescente;Array ordenado;consulta_intervalo;0.014736;73.680000
+10000;crescente;Lista duplamente encadeada;construcao;75.585758;7558.575800
+10000;crescente;Lista duplamente encadeada;busca_presente;15.424493;7712.246500
+10000;crescente;Lista duplamente encadeada;busca_ausente;33.299093;16649.546500
+10000;crescente;Lista duplamente encadeada;insercao;19.950980;19950.980000
+10000;crescente;Lista duplamente encadeada;remocao;10.028210;10028.210000
+10000;crescente;Lista duplamente encadeada;consulta_intervalo;3.629996;18149.980000
+10000;crescente;Tabela hash;construcao;0.078464;7.846400
+10000;crescente;Tabela hash;busca_presente;0.007374;3.687000
+10000;crescente;Tabela hash;busca_ausente;0.014972;7.486000
+10000;crescente;Tabela hash;insercao;0.046289;46.289000
+10000;crescente;Tabela hash;remocao;0.004263;4.263000
+10000;crescente;Tabela hash;consulta_intervalo;1.783566;8917.830000
+10000;crescente;Árvore binária de busca;construcao;136.861491;13686.149100
+10000;crescente;Árvore binária de busca;busca_presente;16.207443;8103.721500
+10000;crescente;Árvore binária de busca;busca_ausente;16.742642;8371.321000
+10000;crescente;Árvore binária de busca;insercao;13.706861;13706.861000
+10000;crescente;Árvore binária de busca;remocao;6.654476;6654.476000
+10000;crescente;Árvore binária de busca;consulta_intervalo;3.692935;18464.675000
+10000;crescente;Árvore AVL;construcao;0.442386;44.238600
+10000;crescente;Árvore AVL;busca_presente;0.140128;70.064000
+10000;crescente;Árvore AVL;busca_ausente;0.151115;75.557500
+10000;crescente;Árvore AVL;insercao;0.107003;107.003000
+10000;crescente;Árvore AVL;remocao;0.098548;98.548000
+10000;crescente;Árvore AVL;consulta_intervalo;0.037138;185.690000
+10000;crescente;Árvore rubro-negra;construcao;1.000050;100.005000
+10000;crescente;Árvore rubro-negra;busca_presente;0.146313;73.156500
+10000;crescente;Árvore rubro-negra;busca_ausente;0.161511;80.755500
+10000;crescente;Árvore rubro-negra;insercao;0.107590;107.590000
+10000;crescente;Árvore rubro-negra;remocao;0.297577;297.577000
+10000;crescente;Árvore rubro-negra;consulta_intervalo;0.048845;244.225000
+10000;decrescente;Array linear;construcao;7.480971;748.097100
+10000;decrescente;Array linear;busca_presente;1.410832;705.416000
+10000;decrescente;Array linear;busca_ausente;2.816958;1408.479000
+10000;decrescente;Array linear;insercao;1.543116;1543.116000
+10000;decrescente;Array linear;remocao;0.938465;938.465000
+10000;decrescente;Array linear;consulta_intervalo;0.474391;2371.955000
+10000;decrescente;Array ordenado;construcao;2.394969;239.496900
+10000;decrescente;Array ordenado;busca_presente;0.116130;58.065000
+10000;decrescente;Array ordenado;busca_ausente;0.121443;60.721500
+10000;decrescente;Array ordenado;insercao;0.298179;298.179000
+10000;decrescente;Array ordenado;remocao;0.286508;286.508000
+10000;decrescente;Array ordenado;consulta_intervalo;0.023013;115.065000
+10000;decrescente;Lista duplamente encadeada;construcao;85.949709;8594.970900
+10000;decrescente;Lista duplamente encadeada;busca_presente;16.917914;8458.957000
+10000;decrescente;Lista duplamente encadeada;busca_ausente;33.291415;16645.707500
+10000;decrescente;Lista duplamente encadeada;insercao;17.657555;17657.555000
+10000;decrescente;Lista duplamente encadeada;remocao;8.308704;8308.704000
+10000;decrescente;Lista duplamente encadeada;consulta_intervalo;3.335121;16675.605000
+10000;decrescente;Tabela hash;construcao;0.047300;4.730000
+10000;decrescente;Tabela hash;busca_presente;0.006217;3.108500
+10000;decrescente;Tabela hash;busca_ausente;0.013302;6.651000
+10000;decrescente;Tabela hash;insercao;0.041934;41.934000
+10000;decrescente;Tabela hash;remocao;0.004048;4.048000
+10000;decrescente;Tabela hash;consulta_intervalo;1.723619;8618.095000
+10000;decrescente;Árvore binária de busca;construcao;135.337147;13533.714700
+10000;decrescente;Árvore binária de busca;busca_presente;16.545235;8272.617500
+10000;decrescente;Árvore binária de busca;busca_ausente;17.383898;8691.949000
+10000;decrescente;Árvore binária de busca;insercao;13.691561;13691.561000
+10000;decrescente;Árvore binária de busca;remocao;7.023327;7023.327000
+10000;decrescente;Árvore binária de busca;consulta_intervalo;3.678387;18391.935000
+10000;decrescente;Árvore AVL;construcao;0.495268;49.526800
+10000;decrescente;Árvore AVL;busca_presente;0.140733;70.366500
+10000;decrescente;Árvore AVL;busca_ausente;0.157021;78.510500
+10000;decrescente;Árvore AVL;insercao;0.102636;102.636000
+10000;decrescente;Árvore AVL;remocao;0.127238;127.238000
+10000;decrescente;Árvore AVL;consulta_intervalo;0.044265;221.325000
+10000;decrescente;Árvore rubro-negra;construcao;1.164376;116.437600
+10000;decrescente;Árvore rubro-negra;busca_presente;0.143604;71.802000
+10000;decrescente;Árvore rubro-negra;busca_ausente;0.153427;76.713500
+10000;decrescente;Árvore rubro-negra;insercao;0.139103;139.103000
+10000;decrescente;Árvore rubro-negra;remocao;0.279343;279.343000
+10000;decrescente;Árvore rubro-negra;consulta_intervalo;0.064097;320.485000
+10000;aleatoria;Array linear;construcao;7.261485;726.148500
+10000;aleatoria;Array linear;busca_presente;1.393743;696.871500
+10000;aleatoria;Array linear;busca_ausente;2.830286;1415.143000
+10000;aleatoria;Array linear;insercao;1.630411;1630.411000
+10000;aleatoria;Array linear;remocao;0.941580;941.580000
+10000;aleatoria;Array linear;consulta_intervalo;4.321324;21606.620000
+10000;aleatoria;Array ordenado;construcao;1.815371;181.537100
+10000;aleatoria;Array ordenado;busca_presente;0.133046;66.523000
+10000;aleatoria;Array ordenado;busca_ausente;0.134880;67.440000
+10000;aleatoria;Array ordenado;insercao;0.322875;322.875000
+10000;aleatoria;Array ordenado;remocao;0.293174;293.174000
+10000;aleatoria;Array ordenado;consulta_intervalo;0.024254;121.270000
+10000;aleatoria;Lista duplamente encadeada;construcao;84.312875;8431.287500
+10000;aleatoria;Lista duplamente encadeada;busca_presente;16.383093;8191.546500
+10000;aleatoria;Lista duplamente encadeada;busca_ausente;33.294827;16647.413500
+10000;aleatoria;Lista duplamente encadeada;insercao;16.822176;16822.176000
+10000;aleatoria;Lista duplamente encadeada;remocao;7.798694;7798.694000
+10000;aleatoria;Lista duplamente encadeada;consulta_intervalo;7.056772;35283.860000
+10000;aleatoria;Tabela hash;construcao;0.047088;4.708800
+10000;aleatoria;Tabela hash;busca_presente;0.006653;3.326500
+10000;aleatoria;Tabela hash;busca_ausente;0.013871;6.935500
+10000;aleatoria;Tabela hash;insercao;0.044100;44.100000
+10000;aleatoria;Tabela hash;remocao;0.003972;3.972000
+10000;aleatoria;Tabela hash;consulta_intervalo;2.073286;10366.430000
+10000;aleatoria;Árvore binária de busca;construcao;0.712409;71.240900
+10000;aleatoria;Árvore binária de busca;busca_presente;0.151267;75.633500
+10000;aleatoria;Árvore binária de busca;busca_ausente;0.167288;83.644000
+10000;aleatoria;Árvore binária de busca;insercao;0.088094;88.094000
+10000;aleatoria;Árvore binária de busca;remocao;0.080559;80.559000
+10000;aleatoria;Árvore binária de busca;consulta_intervalo;1.295488;6477.440000
+10000;aleatoria;Árvore AVL;construcao;1.035435;103.543500
+10000;aleatoria;Árvore AVL;busca_presente;0.137362;68.681000
+10000;aleatoria;Árvore AVL;busca_ausente;0.158034;79.017000
+10000;aleatoria;Árvore AVL;insercao;0.123526;123.526000
+10000;aleatoria;Árvore AVL;remocao;0.115105;115.105000
+10000;aleatoria;Árvore AVL;consulta_intervalo;0.084002;420.010000
+10000;aleatoria;Árvore rubro-negra;construcao;1.365015;136.501500
+10000;aleatoria;Árvore rubro-negra;busca_presente;0.153153;76.576500
+10000;aleatoria;Árvore rubro-negra;busca_ausente;0.163967;81.983500
+10000;aleatoria;Árvore rubro-negra;insercao;0.149472;149.472000
+10000;aleatoria;Árvore rubro-negra;remocao;0.317266;317.266000
+10000;aleatoria;Árvore rubro-negra;consulta_intervalo;0.088444;442.220000
+100000;crescente;Array linear;construcao;727.149830;7271.498300
+100000;crescente;Array linear;busca_presente;13.955675;6977.837500
+100000;crescente;Array linear;busca_ausente;30.583459;15291.729500
+100000;crescente;Array linear;insercao;156.689142;15668.914200
+100000;crescente;Array linear;remocao;97.110755;9711.075500
+100000;crescente;Array linear;consulta_intervalo;4.562518;22812.590000
+100000;crescente;Array ordenado;construcao;1.352450;13.524500
+100000;crescente;Array ordenado;busca_presente;0.155655;77.827500
+100000;crescente;Array ordenado;busca_ausente;0.160264;80.132000
+100000;crescente;Array ordenado;insercao;35.750608;3575.060800
+100000;crescente;Array ordenado;remocao;32.516616;3251.661600
+100000;crescente;Array ordenado;consulta_intervalo;0.027745;138.725000
+100000;crescente;Lista duplamente encadeada;construcao;9239.689051;92396.890510
+100000;crescente;Lista duplamente encadeada;busca_presente;187.879282;93939.641000
+100000;crescente;Lista duplamente encadeada;busca_ausente;370.599629;185299.814500
+100000;crescente;Lista duplamente encadeada;insercao;1941.199866;194119.986600
+100000;crescente;Lista duplamente encadeada;remocao;916.655117;91665.511700
+100000;crescente;Lista duplamente encadeada;consulta_intervalo;37.220325;186101.625000
+100000;crescente;Tabela hash;construcao;0.543670;5.436700
+100000;crescente;Tabela hash;busca_presente;0.030318;15.159000
+100000;crescente;Tabela hash;busca_ausente;0.028926;14.463000
+100000;crescente;Tabela hash;insercao;0.857342;85.734200
+100000;crescente;Tabela hash;remocao;0.227000;22.700000
+100000;crescente;Tabela hash;consulta_intervalo;19.454073;97270.365000
+100000;crescente;Árvore binária de busca;construcao;15040.223066;150402.230660
+100000;crescente;Árvore binária de busca;busca_presente;190.292221;95146.110500
+100000;crescente;Árvore binária de busca;busca_ausente;199.869525;99934.762500
+100000;crescente;Árvore binária de busca;insercao;1548.702447;154870.244700
+100000;crescente;Árvore binária de busca;remocao;781.997979;78199.797900
+100000;crescente;Árvore binária de busca;consulta_intervalo;31.618252;158091.260000
+100000;crescente;Árvore AVL;construcao;6.132518;61.325180
+100000;crescente;Árvore AVL;busca_presente;0.391386;195.693000
+100000;crescente;Árvore AVL;busca_ausente;0.406471;203.235500
+100000;crescente;Árvore AVL;insercao;2.623087;262.308700
+100000;crescente;Árvore AVL;remocao;2.312394;231.239400
+100000;crescente;Árvore AVL;consulta_intervalo;0.181209;906.045000
+100000;crescente;Árvore rubro-negra;construcao;12.787350;127.873500
+100000;crescente;Árvore rubro-negra;busca_presente;0.484902;242.451000
+100000;crescente;Árvore rubro-negra;busca_ausente;0.514010;257.005000
+100000;crescente;Árvore rubro-negra;insercao;3.061536;306.153600
+100000;crescente;Árvore rubro-negra;remocao;5.381339;538.133900
+100000;crescente;Árvore rubro-negra;consulta_intervalo;0.162670;813.350000
+100000;decrescente;Array linear;construcao;730.785959;7307.859590
+100000;decrescente;Array linear;busca_presente;13.756377;6878.188500
+100000;decrescente;Array linear;busca_ausente;27.492353;13746.176500
+100000;decrescente;Array linear;insercao;150.390974;15039.097400
+100000;decrescente;Array linear;remocao;95.506447;9550.644700
+100000;decrescente;Array linear;consulta_intervalo;4.384533;21922.665000
+100000;decrescente;Array ordenado;construcao;324.399541;3243.995410
+100000;decrescente;Array ordenado;busca_presente;0.163704;81.852000
+100000;decrescente;Array ordenado;busca_ausente;0.169420;84.710000
+100000;decrescente;Array ordenado;insercao;34.511084;3451.108400
+100000;decrescente;Array ordenado;remocao;30.737334;3073.733400
+100000;decrescente;Array ordenado;consulta_intervalo;0.032269;161.345000
+100000;decrescente;Lista duplamente encadeada;construcao;8740.588974;87405.889740
+100000;decrescente;Lista duplamente encadeada;busca_presente;191.450816;95725.408000
+100000;decrescente;Lista duplamente encadeada;busca_ausente;370.106228;185053.114000
+100000;decrescente;Lista duplamente encadeada;insercao;1868.031708;186803.170800
+100000;decrescente;Lista duplamente encadeada;remocao;933.531654;93353.165400
+100000;decrescente;Lista duplamente encadeada;consulta_intervalo;36.514502;182572.510000
+100000;decrescente;Tabela hash;construcao;0.622324;6.223240
+100000;decrescente;Tabela hash;busca_presente;0.080651;40.325500
+100000;decrescente;Tabela hash;busca_ausente;0.047348;23.674000
+100000;decrescente;Tabela hash;insercao;0.784630;78.463000
+100000;decrescente;Tabela hash;remocao;0.349366;34.936600
+100000;decrescente;Tabela hash;consulta_intervalo;18.995890;94979.450000
+100000;decrescente;Árvore binária de busca;construcao;15024.416749;150244.167490
+100000;decrescente;Árvore binária de busca;busca_presente;195.120699;97560.349500
+100000;decrescente;Árvore binária de busca;busca_ausente;178.670257;89335.128500
+100000;decrescente;Árvore binária de busca;insercao;1546.281712;154628.171200
+100000;decrescente;Árvore binária de busca;remocao;781.251391;78125.139100
+100000;decrescente;Árvore binária de busca;consulta_intervalo;35.027231;175136.155000
+100000;decrescente;Árvore AVL;construcao;6.684737;66.847370
+100000;decrescente;Árvore AVL;busca_presente;0.578227;289.113500
+100000;decrescente;Árvore AVL;busca_ausente;0.488677;244.338500
+100000;decrescente;Árvore AVL;insercao;3.191952;319.195200
+100000;decrescente;Árvore AVL;remocao;2.581265;258.126500
+100000;decrescente;Árvore AVL;consulta_intervalo;0.159435;797.175000
+100000;decrescente;Árvore rubro-negra;construcao;17.194278;171.942780
+100000;decrescente;Árvore rubro-negra;busca_presente;0.500716;250.358000
+100000;decrescente;Árvore rubro-negra;busca_ausente;0.509847;254.923500
+100000;decrescente;Árvore rubro-negra;insercao;2.792535;279.253500
+100000;decrescente;Árvore rubro-negra;remocao;5.552375;555.237500
+100000;decrescente;Árvore rubro-negra;consulta_intervalo;0.150647;753.235000
+100000;aleatoria;Array linear;construcao;737.480603;7374.806030
+100000;aleatoria;Array linear;busca_presente;13.605593;6802.796500
+100000;aleatoria;Array linear;busca_ausente;28.181410;14090.705000
+100000;aleatoria;Array linear;insercao;148.741464;14874.146400
+100000;aleatoria;Array linear;remocao;98.081494;9808.149400
+100000;aleatoria;Array linear;consulta_intervalo;38.933010;194665.050000
+100000;aleatoria;Array ordenado;construcao;169.176726;1691.767260
+100000;aleatoria;Array ordenado;busca_presente;0.162841;81.420500
+100000;aleatoria;Array ordenado;busca_ausente;0.174588;87.294000
+100000;aleatoria;Array ordenado;insercao;35.297132;3529.713200
+100000;aleatoria;Array ordenado;remocao;31.665594;3166.559400
+100000;aleatoria;Array ordenado;consulta_intervalo;0.030928;154.640000
+100000;aleatoria;Lista duplamente encadeada;construcao;8563.419643;85634.196430
+100000;aleatoria;Lista duplamente encadeada;busca_presente;193.845942;96922.971000
+100000;aleatoria;Lista duplamente encadeada;busca_ausente;396.559970;198279.985000
+100000;aleatoria;Lista duplamente encadeada;insercao;1904.338379;190433.837900
+100000;aleatoria;Lista duplamente encadeada;remocao;915.189237;91518.923700
+100000;aleatoria;Lista duplamente encadeada;consulta_intervalo;70.072196;350360.980000
+100000;aleatoria;Tabela hash;construcao;0.630284;6.302840
+100000;aleatoria;Tabela hash;busca_presente;0.060691;30.345500
+100000;aleatoria;Tabela hash;busca_ausente;0.036132;18.066000
+100000;aleatoria;Tabela hash;insercao;2.133510;213.351000
+100000;aleatoria;Tabela hash;remocao;0.231546;23.154600
+100000;aleatoria;Tabela hash;consulta_intervalo;37.227803;186139.015000
+100000;aleatoria;Árvore binária de busca;construcao;15.320728;153.207280
+100000;aleatoria;Árvore binária de busca;busca_presente;0.405314;202.657000
+100000;aleatoria;Árvore binária de busca;busca_ausente;0.527895;263.947500
+100000;aleatoria;Árvore binária de busca;insercao;3.468128;346.812800
+100000;aleatoria;Árvore binária de busca;remocao;2.221002;222.100200
+100000;aleatoria;Árvore binária de busca;consulta_intervalo;26.468694;132343.470000
+100000;aleatoria;Árvore AVL;construcao;20.039655;200.396550
+100000;aleatoria;Árvore AVL;busca_presente;0.316665;158.332500
+100000;aleatoria;Árvore AVL;busca_ausente;0.362934;181.467000
+100000;aleatoria;Árvore AVL;insercao;2.805171;280.517100
+100000;aleatoria;Árvore AVL;remocao;3.340561;334.056100
+100000;aleatoria;Árvore AVL;consulta_intervalo;0.201963;1009.815000
+100000;aleatoria;Árvore rubro-negra;construcao;22.560595;225.605950
+100000;aleatoria;Árvore rubro-negra;busca_presente;0.335988;167.994000
+100000;aleatoria;Árvore rubro-negra;busca_ausente;0.356328;178.164000
+100000;aleatoria;Árvore rubro-negra;insercao;3.156514;315.651400
+100000;aleatoria;Árvore rubro-negra;remocao;5.608666;560.866600
+100000;aleatoria;Árvore rubro-negra;consulta_intervalo;0.193813;969.065000
