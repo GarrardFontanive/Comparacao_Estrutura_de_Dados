@@ -10,6 +10,12 @@ public class FabricaEstruturas {
             int quantidadeInicial
     ) {
         return switch (tipo) {
+            case ARRAY_LINEAR ->
+                    new ArrayLinear(
+                            quantidadeInicial
+                                    + quantidadeInicial / 10
+                    );
+
             case ARRAY_ORDENADO ->
                     new ArrayOrdenado(
                             quantidadeInicial
@@ -22,8 +28,14 @@ public class FabricaEstruturas {
             case TABELA_HASH ->
                     new TabelaHash(quantidadeInicial);
 
+            case ARVORE_BINARIA_BUSCA ->
+                    new ArvoreBinariaDeBusca();
+
             case ARVORE_AVL ->
                     new ArvoreAVL();
+
+            case ARVORE_RUBRO_NEGRA ->
+                    new ArvoreRubroNegra();
         };
     }
 }
