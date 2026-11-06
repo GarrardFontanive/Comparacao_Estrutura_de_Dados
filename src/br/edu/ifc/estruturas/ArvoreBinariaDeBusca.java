@@ -1,10 +1,10 @@
 package br.edu.ifc.estruturas;
 
-public class ArvoreBinariaDeBusca implements EstruturaDados {
+public class ArvoreBinariaDeBusca
+        implements EstruturaDados {
+
     private No raiz;
     private int tamanho;
-    private boolean inseriu;
-    private boolean removeu;
 
     private static class No {
         private int valor;
@@ -18,14 +18,35 @@ public class ArvoreBinariaDeBusca implements EstruturaDados {
 
     @Override
     public boolean inserir(int valor) {
-        inseriu = false;
-        raiz = inserir(raiz, valor);
-
-        if (inseriu) {
+        if (raiz == null) {
+            raiz = new No(valor);
             tamanho++;
+            return true;
         }
 
-        return inseriu;
+        No atual = raiz;
+        No anterior = null;
+
+        while (atual != null) {
+            anterior = atual;
+
+            if (valor < atual.valor) {
+                atual = atual.esquerda;
+            } else if (valor > atual.valor) {
+                atual = atual.direita;
+            } else {
+                return false;
+            }
+        }
+
+        if (valor < anterior.valor) {
+            anterior.esquerda = new No(valor);
+        } else {
+            anterior.direita = new No(valor);
+        }
+
+        tamanho++;
+        return true;
     }
 
     @Override
@@ -47,23 +68,101 @@ public class ArvoreBinariaDeBusca implements EstruturaDados {
 
     @Override
     public boolean excluir(int valor) {
-        removeu = false;
-        raiz = remover(raiz, valor);
+        No atual = raiz;
+        No pai = null;
 
-        if (removeu) {
-            tamanho--;
+        while (atual != null
+                && atual.valor != valor) {
+
+            pai = atual;
+
+            if (valor < atual.valor) {
+                atual = atual.esquerda;
+            } else {
+                atual = atual.direita;
+            }
         }
 
-        return removeu;
+        if (atual == null) {
+            return false;
+        }
+
+        if (atual.esquerda != null
+                && atual.direita != null) {
+
+            No paiSucessor = atual;
+            No sucessor = atual.direita;
+
+            while (sucessor.esquerda != null) {
+                paiSucessor = sucessor;
+                sucessor = sucessor.esquerda;
+            }
+
+            atual.valor = sucessor.valor;
+            pai = paiSucessor;
+            atual = sucessor;
+        }
+
+        No filho;
+
+        if (atual.esquerda != null) {
+            filho = atual.esquerda;
+        } else {
+            filho = atual.direita;
+        }
+
+        if (pai == null) {
+            raiz = filho;
+        } else if (pai.esquerda == atual) {
+            pai.esquerda = filho;
+        } else {
+            pai.direita = filho;
+        }
+
+        tamanho--;
+        return true;
     }
 
     @Override
-    public int contarIntervalo(int minimo, int maximo) {
-        if (minimo > maximo) {
+    public int contarIntervalo(
+            int minimo,
+            int maximo
+    ) {
+        if (raiz == null || minimo > maximo) {
             return 0;
         }
 
-        return contarIntervalo(raiz, minimo, maximo);
+        No[] pilha = new No[tamanho];
+        int topo = 0;
+        int quantidade = 0;
+
+        pilha[topo++] = raiz;
+
+        while (topo > 0) {
+            No atual = pilha[--topo];
+
+            if (atual.valor < minimo) {
+                if (atual.direita != null) {
+                    pilha[topo++] = atual.direita;
+                }
+            } else if (atual.valor > maximo) {
+                if (atual.esquerda != null) {
+                    pilha[topo++] = atual.esquerda;
+                }
+            } else {
+                quantidade++;
+
+                if (atual.esquerda != null) {
+                    pilha[topo++] = atual.esquerda;
+                }
+
+                if (atual.direita != null) {
+                    pilha[topo++] = atual.direita;
+                }
+            }
+        }
+
+        return quantidade;
     }
 
     @Override
@@ -74,100 +173,5 @@ public class ArvoreBinariaDeBusca implements EstruturaDados {
     @Override
     public String nome() {
         return "Árvore Binária de Busca";
-    }
-
-    private No inserir(No no, int valor) {
-        if (no == null) {
-            inseriu = true;
-            return new No(valor);
-        }
-
-        if (valor < no.valor) {
-            no.esquerda = inserir(no.esquerda, valor);
-        } else if (valor > no.valor) {
-            no.direita = inserir(no.direita, valor);
-        }
-
-        return no;
-    }
-
-    private No remover(No no, int valor) {
-        if (no == null) {
-            return null;
-        }
-
-        if (valor < no.valor) {
-            no.esquerda = remover(no.esquerda, valor);
-        } else if (valor > no.valor) {
-            no.direita = remover(no.direita, valor);
-        } else {
-            removeu = true;
-
-            if (no.esquerda == null) {
-                return no.direita;
-            }
-
-            if (no.direita == null) {
-                return no.esquerda;
-            }
-
-            No sucessor = menor(no.direita);
-
-            no.valor = sucessor.valor;
-            no.direita = remover(
-                    no.direita,
-                    sucessor.valor
-            );
-        }
-
-        return no;
-    }
-
-    private int contarIntervalo(
-            No no,
-            int minimo,
-            int maximo
-    ) {
-        if (no == null) {
-            return 0;
-        }
-
-        if (no.valor < minimo) {
-            return contarIntervalo(
-                    no.direita,
-                    minimo,
-                    maximo
-            );
-        }
-
-        if (no.valor > maximo) {
-            return contarIntervalo(
-                    no.esquerda,
-                    minimo,
-                    maximo
-            );
-        }
-
-        return 1
-                + contarIntervalo(
-                no.esquerda,
-                minimo,
-                maximo
-        )
-                + contarIntervalo(
-                no.direita,
-                minimo,
-                maximo
-        );
-    }
-
-    private No menor(No no) {
-        No atual = no;
-
-        while (atual.esquerda != null) {
-            atual = atual.esquerda;
-        }
-
-        return atual;
     }
 }
